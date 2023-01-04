@@ -1,0 +1,4432 @@
+inurl:wp- OR inurl:plugin OR inurl:upload OR inurl:download loginpage.txt
+inurl:shell OR inurl:backdoor OR inurl:wso OR inurl:cmd OR shadow OR passwd OR boot.ini OR inurl:backdoor backdoor.txt
+inurl:readme OR inurl:license OR inurl:install OR inurl:setup OR inurl:config setup_files.txt
+inurl:wp- OR inurl:plugin OR inurl:upload OR inurl:download wordpress.txt
+inurl:redir OR inurl:url OR inurl:redirect OR inurl:return OR inurl:src=http OR inurl:r=http openredirect.txt
+ext:cgi OR ext:php OR ext:asp OR ext:aspx OR ext:jsp OR ext:jspx OR ext:swf OR ext:fla OR ext:xml extentions.txt
+ext:doc OR ext:docx OR ext:csv OR ext:pdf OR ext:txt OR ext:log OR ext:bak documents.txt
+password | credential | username filetype:log
+not for distribution | confidential | “employee only” | proprietary | top secret | classified | trade secret | internal | private filetype:xls
+not for distribution | confidential | “employee only” | proprietary | top secret | classified | trade secret | internal | private filetype:csv
+not for distribution | confidential | “employee only” | proprietary | top secret | classified | trade secret | internal | private filetype:doc
+not for distribution | confidential | “employee only” | proprietary | top secret | classified | trade secret | internal | private filetype:txt
+inurl:"topic.asp?ID="
+intext:"sets mode: +s"
+intitle:"Dell Remote Access Controller"
+inurl:sitio.php?doshow=
+inurl:padrao.php?u=
+inurl:2000 intitle:RemotelyAnywhere -site:realvnc.com
+inurl:backup filetype:mdb
+inurl:"nacional.php?id="
+inurl:head.php?choix=
+inurl:"group.php?gid="
+inurl:/cgi-bin/wwwadmin.pl
+inurl:page.php?base_dir=
+inurl:main.php?mod=
+intitle:"Remote Desktop Web Connection"
+filetype:cfg ks intext:rootpw -sample -test -howto
+inurl:blank.php?oldal=
+inurl:path.php?thispage=
+inurl:enter.php?link=
+inurl:\"/axs/ax-admin.pl\" -script
+inurl:/index.php?babInstallPath=
+inurl:press.php?dir=
+inurl:info.php?op=
+inurl:"products.asp?ID="
+inurl:general.php?menu=
+inurl:path.php?incl=
+inurl:start.php?in=
+filetype:ctt   Contact
+intitle:phpinfo "PHP Version"
+ext:pqi pqi -database
+inurl:/cgi-bin/Count.cgi
+inurl:"results.asp?cat="
+inurl:index3.php?option=
+intitle:"index of" members OR accounts
+inurl:common.php
+inurl:mod*.php?dir=
+intext:"The following report contains confidential information" vulnerability -search
+ext:nsf nsf -gov -mil
+inurl:chap-secrets -cvs
+inurl:press.php?path=
+inurl:msadcs.dll
+inurl:print.php?pre=
+intext:"You have an error in your SQL syntax near"
+filetype:cgi inurl:"fileman.cgi"
+inurl:pagina.php?ref=
+inurl:default.php?loader=
+inurl:print.php?module=
+inurl:blank.php?corpo=
+inurl:index2.php?f=
+inurl:index1.php?pg=
+inurl:nota.php?eval=
+inurl:gallery.php?sivu=
+inurl:template.php?opcion=
+inurl:path.php?category=
+inurl:news_display.php?getid=
+inurl:index.php?link=
+intitle:"welcome.to.squeezebox"
+inurl:index1.php?tipo=
+inurl:/class.mysql.php?path_to_bt_dir=
+inurl:/jaf/index.php?show=
+inurl:home.php?redirect=
+inurl:blank.php?mod=
+inurl:"faq_list.asp?id="
+inurl:"informacion.php?id="
+inurl:modules/My_eGallery/index.php?basepath=
+inurl:newsitem.php?num=
+inurl:search.pl
+intitle:"Under construction" "does not currently have"
+intext:"parent directory " /appz/ -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+inurl:Pageid=
+inurl:"usysinfo?login=true"
+inurl:main.php?where=
+filetype:inf sysprep
+inurl:admin
+inurl:padrao.php?cont=
+intext:"SysCP - login"
+inurl:page.php?ev=
+inurl:browser.inc
+inurl:include.php?x=
+intext:"liveice configuration file" ext:cfg
+inurl:"details.asp?Product_ID="
+inurl:include.php?play=
+inurl:print.php?cont=
+inurl:test.bat
+inurl:main.php?tipo=
+inurl:info2www
+inurl:index2.php?doshow=
+inurl:start.php?pageweb=
+inurl:press.php?abre=
+inurl:head.php?pageweb=
+inurl:"cardinfo.asp?card="
+inurl:file.php?seccion=
+inurl:shop
+inurl:index.php?addr=
+inurl:view.php?var=
+inurl:principal.php?id=
+inurl:default.php?seccion=
+inurl:"colunas.php?id_colunista="
+inurl:/content.php?page=
+inurl:file.php?cmd=
+inurl:padrao.php?body=
+inurl:mod*.php?ev=
+inurl:page.php?adresa=
+inurl:sub*.php?g=
+inurl:file.php?disp=
+inurl:"quem_somos.php?id="
+inurl:index3.php?x=
+inurl:index.php?pg=
+inurl:/mcf.php?content=
+inurl:"shprodde.asp?SKU="
+inurl:info.php?pagina=
+inurl:sitio.php?abre=
+intext:"mySQL error with query"
+inurl:php
+inurl:pagina.php?numero=
+inurl:print.php?basepath=
+inurl:layout.php?sekce=
+htpasswd / htgroup
+inurl:standard.php?pre=
+inurl:info.php?o=
+inurl:vtund.conf intext:pass -cvs s
+inurl:page.php?e=
+inurl:default.php?opcion=
+inurl:/cgi-bin/php.cgi
+inurl:head.php?left=
+inurl:padrao.php?op=
+inurl:sub*.php?where=
+inurl:cgi-bin/ultimatebb.cgi?ubb=login
+inurl:/index.php?pagina=
+haccess.ctl (VERY reliable)
+intext:"Mecury Version" "Infastructure   Group"
+inurl:padrao.php?path=
+inurl:index.php?op=
+inurl:padrao.php?a=
+inurl:show.php?d=
+inurl:finger
+filetype:wab wab
+inurl:default.php?ir=
+ext:CDX CDX
+inurl:view.php?to=
+inurl:sub*.php?recipe=
+inurl:view.php?chapter=
+inurl:jj
+inurl:/cgi-bin/sendform.cgi
+inurl:print.php?pag=
+inurl:padrao.php?menue=
+inurl:"aktuelles.php?id="
+inurl:"template.php?pag="
+intitle:\"Index of\" cfide
+inurl:home.php?tipo=
+inurl:main.php?thispage=
+filetype:sql "insert into" (pass|passwd|password)
+inurl:include.php?goFile=
+inurl:"agenda.php?o="
+inurl:/index.php?TWC=
+inurl:pagina.php?ir=
+inurl:pagina.php?secao=
+inurl:path.php?pname=
+filetypera orafiletypedb pdb backup (Pilot |   Pluckerdb)
+inurl:include.php?left=
+inurl:pagina.php?recipe=
+inurl:sub*.php?load=
+inurl:home.php?body=
+inurl:base.php?*[*]*=
+inurl:nota.php?filepath=
+inurl:"temas.php?ID="
+inurl:*db filetype:mdb
+inurl:show.php?redirect=
+inurl:/header.php?abspath=
+inurl:art.php?idm=
+inurl:head.php?dir=
+inurl:"promo.asp?id="
+inurl:"index.php?KID="
+inurl:show.php?disp=
+inurl:blank.php?url=
+inurl:/cgi-bin/files.pl
+inurl:blank.php?link=
+inurl:sub*.php?secao=
+inurl:new
+inurl:enter.php?pr=
+inurl:sitio.php?pg=
+inurl:*db filetype:mdb
+inurl:"themen.php?ID="
+intext:"enable secret 5 $"
+intitle:"Login to @Mail" (ext:pl | inurl:"index") -dwaffleman
+inurl:standard.php?secc=
+inurl:path.php?id=
+intitle:\"index of\" inurl:ftp (pub | incoming)
+inurl:forward filetype:forward -cvs
+inurl:/cgi-bin/www-sql
+intext:"Welcome to PHP-Nuke" congratulations
+inurl:general.php?body=
+inurl:mod*.php?goFile=
+inurl:nota.php?OpenPage=
+filetype:sql password
+inurl:newsid=
+intext:"Web Wiz Journal"
+inurl:*inc*.php?body=
+inurl:"utilities/TreeView.asp"
+inurl:page.php?OpenPage=
+inurl:"fotos.php?gal="
+inurl:default.php?nivel=
+inurl:down*.php?include=
+intitle:"Index Of" cookies.txt size
+inurl:show.php?oldal=
+inurl:/cgi-bin/webdist.cgi
+inurl:solpot.html?body=
+intitle:"Mail Server CMailServer Webmail" "5.2"
+inurl:include.php?pag=
+inurl:index1.php?sekce=
+inurl:/allmylinks/include/info.inc.php?_AMVconfig[cfg_serverpath]=
+inurl:"directorio.php?page="
+inurl:index1.php?b=
+inurl:pagina.php?in=
+inurl:pagina.php?basepath=
+intext:"Certificate Practice Statement" filetype:PDF | DOC
+inurl:mod*.php?content=
+inurl:index3.php?body=
+intitle:\"Index Of\" -inurl:maillog maillog size
+inurl:default.php?play=
+inurl:snitz_forums_.mdb
+inurl:title.php?id=
+inurl:index2.php?section=
+inurl:software
+inurl:press.php?opcion=
+inurl:/classes/adodbt/sql.php?classes_dir=
+inurl:view.php?qry=
+inurl:sources/join.php?FORM[url]=owned&CONFIG[captcha]=1&CONFIG[path]=
+inurl:padrao.php?subject=
+inurl:gallery.php?pag=
+inurl:"newsletter/admin/"
+intitle:Node.List Win32.Version.3.11
+inurl:file.php?param=
+haccess.ctl   (one way)
+inurl:base.php?link=
+filetype:sql ("values * MD5″ | "values * password" | "values * encrypt")
+inurl:index2.php?get=
+inurl:nota.php?basepath=
+inurl:/hosts.dat
+inurl:index.php?sel=
+inurl:"index_en.php?id="
+inurl:game.php?id=
+inurl:general.php?opcion=
+AnyBoard" inurl:gochat -edu
+inurl:principal.php?rub=
+inurl:jee/examples/jsp
+intext:"Dumping data for table"
+inurl:"publications.php?view="
+inurl:index2.php?pa=
+inurl:padrao.php?section=
+inurl:default.php?page=
+inurl:/cgi-bin/responder.cgi
+inurl:bp_ncom.php?bnrep=
+inurl:layout.php?loader=
+inurl:base.php?path=
+inurl:htpasswd filetype:htpasswd
+inurl:page.php?p=
+inurl:template.php?s=
+inurl:/cgi-bin/nph-test-cgi
+intext:"generated by wwwstat"
+inurl:"productpage.asp"
+inurl:head.php?play=
+inurl:"info.asp?ID="
+intitle:"oMail-admin Administration - Login" -inurl:omnis.ch
+inurl:sitio.php?qry=
+inurl:public
+inurl:home.php?pagina=
+inurl:down*.php?to=
+inurl:pagina.php?go=
+inurl:/cgi-bin/nph-error.pl
+inurl:principal.php?seccion=
+inurl:padrao.php?secao=
+inurl:page.php?recipe=
+filetypest   inurl:"outlook.pst"
+inurl:"cacti" +inurl:"graph_view.php" +"Settings Tree View" -cvs -RPM
+inurl:*inc*.php?rub=
+intext:"EZGuestbook"
+inurl:path.php?xlink=
+inurl:/index.php?pg=
+inurl:nota.php?opcion=
+intext:"Running   in Child mode"
+inurl:sitio.php?tipo=
+inurl:sitio.php?texto=
+inurl:/scripts/proxy/w3proxy.dll
+inurl:nota.php?pr=
+inurl:/tools/send_reminders.php?includedir= allinurl:day.php?date=
+filetype:pot inurl:john.pot
+inurl:/includes/calendar.php?phpc_root_path=
+intitle:"web-cyradm"|"by Luc de Louw" "This is only for authorized users" -tar.gz -site:web-cyradm.org
+intext:"Warning:" "SAFE MODE Restriction in effect." "The s?ri?t whose uid is" "is not allowed to access owned by uid 0 in" "on line"
+inurl:way-board.cgi
+inurl:info.php?sec=
+filetype:log \"See `ipsec copyright\"
+inurl:padrao.php?pre=
+inurl:"prodotti.php?idlingua="
+intitle:phpMyAdmin "Welcome to phpMyAdmin ***" "running on * as root@*"
+inurl:"archive.asp?id="
+inurl:main.php?type=
+inurl:view.php?pg=
+inurl:padrao.php?tipo=
+inurl:general.php?subject=
+inurl:principal.php?pref=
+inurl:home.php?middlePart=
+intitle:"iVISTA.Main.Page"
+inurl:down*.php?pre=
+intitle:admin   intitle:login
+intext:"sets   mode: +s"
+intext:"parent directory "Xvid -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+inurl:down*.php?nivel=
+inurl:"agenda.php?q="
+inurl:base.php?body=
+inurl:sub*.php?go=
+inurl:index3.php?xlink=
+intext:"Syntax error in query expression " -the
+inurl:Productinfo.php?id=
+intext:"by Reimar Hoven. All Rights Reserved. Disclaimer" | inurl:"log/logdb.dta"
+inurl:"productlist.asp?ViewType=Category&CategoryID= "
+intext:"Most Submitted Forms and Scripts" "this section"
+inurl:cgi-bin/testcgi.exe \"Please distribute TestCGI\"
+inurl:/scripts/iisadmin/ism.dll
+inurl:file.php?choix=
+inurl:include.php?module=
+inurl:"stampa.php?id="
+inurl:index2.php?e=
+inurl:/cgi-bin/nph-publish
+intext:"html allowed" guestbook
+inurl:/cgi-bin/phf
+inurl:index.php?strona=
+inurl:default.php?to=
+inurl:base.php?to=
+intitle:"network administration" inurl:"nic"
+intext:"Parse error: parse error, unexpected T_VARIABLE" "on line" filetype:php
+inurl:press.php?*[*]*=
+inurl:default.php?m=
+inurl:show.php?channel=
+inurl:/cgi-bin/bnbform.cgi
+inurl:"poesia.php?id="
+inurl:+union+select+ admin
+inurl:"view_cart.asp?title="
+inurl:"affiliate.asp?ID="
+inurl:shtml.dll
+intitle:\"[Only Registered Users Can See Links]\"
+inurl:"home.php?cont="
+inurl:enter.php?mod=
+intitle:admin intitle:login
+inurl:enter.php?type=
+inurl:padrao.php?strona=
+inurl:enter.php?include=
+intext:"phpMyAdmin MySQL-Dump" filetype:txt
+inurl:nota.php?pg=
+intext:"Warning: pg_connect(): Unable to connect to PostgreSQL server: FATAL"
+inurl:index1.php?var=
+inurl:index.php?c=
+intext:"Version Info" "Boot Version" "Internet Settings"
+inurl:video.php?content=
+inurl:/scripts/tools/dsnform.exe
+inurl:standard.php?home=
+inurl:main.php?ref=
+inurl:index3.php?pname=
+inurl:/squito/photolist.inc.php?photoroot=
+inurl:"gallery.php?uid="
+intext:"Microsoft (R) Windows * (TM) Version * DrWtsn32 Copyright (C)" ext:log
+index of: intext:Gallery in Configuration mode
+inurl:enter.php?menue=
+intext:"vbulletin" inurl:admincp
+inurl:info.php?home=
+inurl:pagina.php?loader=
+inurl:admin   filetype:xls
+inurl:principal.php?phpbb_root_path=
+haccess.ctl (VERY reliable)
+inurl:/index.php?site=
+inurl:php.cgi
+filetype:inf sysprep
+inurl:nota.php?panel=
+inurl:main.php?itemnav=
+inurl:test-cgi
+inurl:index2.php?var=
+filetype:wab wab
+inurl:index3.php?middle=
+inurl:enc/content.php?Home_Path=
+inurl:principal.php?oldal=
+inurl:/ashnews.php?pathtoashnews=
+inurl:/popup_window.php?site_isp_root=
+inurl:principal.php?subject=
+inurl:textpattern/index.php
+inurl:base.php?pag=
+inurl:home.php?choix=
+intitle:"Usage Statistics for" "Generated by Webalizer"
+intext:"The statistics were last upd?t?d" "Daily"-microsoft.com
+filetype:url +inurl:\"ftp://\" +inurl:\";@\"
+inurl:log.htm
+inurl:default.php?incl=
+inurl:"agenda.php?s="
+inurl:print.php?goFile=
+filetype:HTML HTML
+inurl:index.php?channel=
+inurl:/cgi-bin/sqwebmail?noframes=1
+filetype:reg reg +intext:â? WINVNC3â?
+intitle:index.of administrators.pwd
+inurl:"631/admin" (inurl:"op=*") | (intitle:CUPS)
+inurl:down*.php?filepath=
+inurl:press.php?panel=
+intext:"Thank you for your purchase" +download
+inurl:/cgi-bin/guestbook.cgi
+inurl:"news.php?d="
+allinurl:servlet/SnoopServlet
+inurl:head.php?opcion=
+inurl:info.php?c=
+inurl:blank.php?ir=
+inurl:ManyServers.htm
+intitle:"MailMan Login"
+inurl:prod_detail.php?id=
+inurl:axis-cgi/jpg
+inurl:gallery.php?eval=
+intitle:"VitalQIP IP Management System"
+intitle:"PHProjekt – login" login password
+inurl:/iisadmpwd/aexp3.htr
+inurl:"smb.conf" intext:"workgroup" filetype:conf conf
+inurl:article.php?id=
+inurl:index3.php?oldal=
+intitle:"wbem" compaq login
+inurl:*.php?session=*amp;content=
+intitle:\"index of\" intext:connect.inc
+inurl:"contractor.php?id="
+inurl:template.php?page=
+inurl:/photoalb/lib/static/header.php?set_menu=
+inurl:search.php?cutepath=
+inurl:"info.php?mid="
+inurl:*inc*.php?j=
+filetype:config config intext:appSettings "User ID"
+inurl:"show_page.php?pid="
+inurl:general.php?seite=
+inurl:index.php?Language=
+inurl:"wvdial.conf" intext:"password"Inurl:.co.ke filetype:pdf
+inurl:offer.php?idf=
+intitle:Bookmarks inurl:bookmarks.html "Bookmarks
+inurl:login filetype:swf swf
+inurl:path.php?filepath=
+intitle:index.of cleanup.log
+inurl:"main.php?go="
+inurl:press.php?type=
+intext:"MacHTTP" filetype:log inurl:machttp.log
+inurl:/cgi-bin/upload.pl
+inurl:*.php?name=
+inurl:gallery.php?secao=
+inurl:index2.php?ID=
+inurl:print.php?disp=
+inurl:index1.php?home=
+inurl:/cgi-bin/rwwwshell.pl
+inurl:pagina.php?pagina=
+inurl:include.php?tipo=
+inurl:principal.php?pr=
+inurl:"payment.asp?CartID="
+inurl:template.php?ref=
+filetype:dat wand.dat
+inurl:default.php?type=
+intext:"ORA-00936: missing expression"
+inurl:press.php?home=
+inurl:logfile.htm
+inurl:/domlog.nsf
+inurl:cgi-bin/testcgi.exe "Please distribute TestCGI"
+inurl:home.php?ir=
+inurl:template.php?texto=
+inurl:counter.exe
+intitle:"EZPartner" -netpond
+inurl:"default.asp?catID="
+inurl:cgi.asx?StoreID
+inurl:"product_info.asp?item_id="
+inurl:blank.php?loader=
+inurl:pageid=
+inurl:sub*.php?thispage=
+inurl:layout.php?qry=
+inurl:pagina.php?OpenPage=
+inurl:mod*.php?OpenPage=
+inurl:padrao.php?choix=
+inurl:padrao.php?index=
+inurl:index3.php?addr=
+inurl:index.php?ort=
+inurl:main.php?body=
+inurl:index.php?Load=
+inurl:main.php?strona=
+inurl:home.php?showpage=
+index.of passlist
+inurl:"cart_additem.asp?id="
+inurl:pagina.php?index=
+intext:"Thank you for your order" +receipt
+inurl:general.php?rub=
+inurl:ultraboard.cgi
+inurl:press.php?pname=
+inurl:/index.php?main=
+inurl:/tmp
+inurl:index1.php?subject=
+inurl:start.php?param=
+inurl:index.php?lang=gr&file
+inurl:down*.php?t=
+inurl:pagina.php?chapter=
+intitle:"SuSE Linux Openexchange Server" "Please activate Javas?ri?t!"
+inurl:"index.php?data_id="
+inurl:template.php?header=
+intitle:\"FTP root at\"
+inurl:footer.inc.php
+inurl:liveapplet
+inurl:"cartadd.asp?id="
+inurl:"noticia.php?id_noticia="
+inurl:snitz_forums_2000.mdb
+inurl:"WsAncillary.asp?ID="
+intitle:"PHP Advanced Transfer" inurl:"login.php"
+inurl:/domcfg.nsf
+intitle:"DocuShare"   inurl:"docushare/dsweb/" -faq
+inurl:padrao.php?seite=
+inurl:main.php?str=
+inurl:pagina.php?category=
+inurl:enter.php?second=
+inurl:odbc.ini ext:ini -cvs
+inurl:index3.php?ir=
+inurl:"pagina.php?ID_pagina="
+inurl:ssl.conf filetype:conf
+filetyperoperties inurl:db intextassword
+inurl:cart32.exe
+inurl:ViewerFrame?Mode=Refresh
+inurl:gallery.php?qry=
+inurl:"index.php?s="
+intitle:index.of dead.letter
+intitle:"Index of..etc" passwd
+inurl:layout.php?page=
+inurl:principal.php?goto=
+intext:"Warning: Supplied argument is not a valid File-Handle resource in"
+inurl:postfixadmin intitle:"postfix admin" ext:php
+inurl:standard.php?go=
+intitle:"Index   Of" -inurl:maillog maillog size
+inurl:index.php?arquivo=
+inurl:/allmylinks/include/footer.inc.php?_AMLconfig[cfg_serverpath]=
+inurl:page.php?read=
+inurl:show.php?pre=
+inurl:*.php?go=
+inurl:webdist.cgi
+inurl:print.php?l=
+intext:"Welcome to Administration" "General" "Local Domains" "SMTP Authentication" inurl:admin
+inurl:view.php?phpbb_root_path=
+inurl:access.log
+inurl:/index.php?file=
+inurl:/modules/xoopsgallery/upgrade_album.php?GALLERY_BASEDIR=
+IlohaMail"
+inurl:index2.php?choix=
+inurl:index.php?mid=
+inurl:sitio.php?recipe=
+inurl:index3.php?secc=
+inurl:sub*.php?action=
+inurl:base.php?pname=
+inurl:main.php?disp=
+inurl:"fullDisplay.asp?item="
+inurl:/cgi-bin/ppdscgi.exe
+inurl:standard.php?name=
+inurl:index2.php?home=
+inurl:file.php?channel=
+inurl:/cgi-bin/Cgitest.exe
+inurl:install/index.php?lng=../../include/main.inc&G_PATH=
+inurl:general.php?addr=
+inurl:press.php?base_dir=
+inurl:gallery.php?y=
+inurl:press.php?pagina=
+inurl:home.php?pageweb=
+inurl:index1.php?cmd=
+inurl:"auth_user_file.txt"
+filetypest pst -from -to -date
+inurl:index.php?=
+inurl:blank.php?z=
+filetype:php inurl:"webeditor.php"
+inurl:/scripts/counter.exe
+inurl:/index1.php?p=
+inurl:/e107/e107_handlers/secure_img_render.php?p=
+inurl:"List.asp?CatID="
+filetypeem intextrivate
+inurl:down*.php?cmd=
+inurl:sub*.php?path=
+inurl:vbstats.php "page generated"
+inurl:info.php?doshow=
+inurl:show.php?chapter=
+inurl:start.php?sp=
+intext:"Welcome to the Web V.Networks" intitle:"V.Networks [Top]" -filetype:htm
+inurl:nota.php?m=
+inurl:home.php?z=
+inurl:/SUSAdmin intitle:"Microsoft Software upd?t? Services"
+inurl:standard.php?cmd=
+inurl:press.php?middle=
+inurl:module_db.php?pivot_path=
+inurl:blank.php?itemnav=
+intext:"Master Account" "Domain Name" "Password" inurl:/cgi-bin/qmailadmin
+inurl:blank.php?in=
+inurl:"faq.asp?cartID="
+inurl:*.php?inf=
+intext:gmail invite intext:[Only Registered Users Can See Links]
+intext:"HTTP_FROM=googlebot" googlebot.com   "Server_Software="
+inurl:ConnectComputer/precheck.htm | inurl:Remote/logon.aspx
+inurl:download.php?id=
+inurl:fiche_spectacle.php?id=
+inurl:index.php?cat=
+inurl:mod*.php?qry=
+inurl:head.php?content=
+inurl:blank.php?category=
+inurl:down*.php?path=
+filetype:blt blt +intext:screenname
+inurl:info.php?mid=
+inurl:base.php?panel=
+inurl:standard.php?viewpage=
+inurl:home.php?chapter=
+inurl:/manage/cgi/cgiproc
+inurl:nota.php?secc=
+inurl:principal.php?ir=
+inurl:include.php?to=
+inurl:"dossier.php?id="
+inurl:default.php?option=
+inurl:path.php?p=
+inurl:head.php?b=
+ext:reg \"username=*\" putty
+intitle:"--- VIDEO WEB SERVER ---" intext:"Video Web Server" "Any time & Any where" username password
+inurl:"pdetail.asp?item_id="
+inurl:users.pwd
+inurl:sub*.php?sec=
+inurl:/cgi-bin/wais.pl
+ext:txt   "Final encryption key"
+inurl:include.php?option=
+inurl:pagina.php?section=
+inurl:sub*.php?seite=
+inurl:"shopaddtocart.asp?catalogid="
+inurl:"itemdetail.asp?item="
+inurl:material.php?id=
+inurl:default.php?include=
+inurl:padrao.php?corpo=
+inurl:main.php?action=
+inurl:email   filetype:mdb
+intext:"enable password 7″
+inurl:newsone.php?id=
+inurl:path.php?path=
+inurl:"autore.php?id="
+inurl:"viewcart.asp?CartId="
+inurl:forum filetype:mdb
+inurl:path.php?disp=
+inurl:file.php?nivel=
+inurl:click.php intext:PHPClickLog
+intitle:"BNBT Tracker Info"
+inurl:index1.php?abre=
+intitle:index.of passwd passwd.bak
+inurl:default.php?loc=
+inurl:sub*.php?viewpage=
+inurl:userlist
+inurl:sub*.php?abre=
+inurl:file.php?pg=
+intext:"Shadow Security Scanner performed a vulnerability assessment"
+inurl:principal.php?opcion=
+inurl:vtund.conf intextass -cvs
+inurl:info.php?strona=
+inurl:index.php?base_dir=
+inurl:ihm.php?p=
+inurl:file.php?qry=
+inurl:default.php?f=
+inurl:index.php?modo=
+inurl:print.php?sp=
+inurl:vbstats.php \"page generated\"
+inurl:base.php?sekce=
+inurl:home.php?my=
+intitle:"Index of" passwords modified
+inurl:print.php?middle=
+inurl:start.php?base_dir=
+inurl:/components/com_facileforms/facileforms.frame.php?ff_compath=
+inurl:subscribe.pl
+inurl:/cgi-bin/visadmin.exe
+inurl:/scripts/samples/details.idc
+filetypest pst -from -to -date
+inurl:file.php?where=
+inurl:midicart.mdb
+intitle:"Zope Help System" inurl:HelpSys
+inurl:down*.php?strona=
+inurl:sitio.php?go=
+inurl:start.php?pollname=
+intext:"More Info about MetaCart Free"
+inurl:index3.php?adresa=
+inurl:story.php?id=
+inurl:"candidate.php?ID="
+inurl:blank.php?j=
+inurl:recruit_details.php?id=
+inurl:/cgi-bin/status.cgi
+inurl:home.php?ref=
+filetype:reg reg +intext:\"defaultusername\" +intext:\"defaultpassword\"
+intext:"Network Vulnerability Assessment Report" 本文来自 pc007.com
+inurl:/cgi-bin/pass.txt
+inurl:base.php?mid=
+inurl:noticias.php?arq=
+inurl:showcode.asp
+inurl:index.php?index=
+inurl:"news.php?pageid="
+inurl:pages
+inurl:gallery.php?strona=
+inurl:/zentrack/index.php?configFile=
+inurl:index1.php?OpenPage=
+inurl:start.php?go=
+inurl:/html/page.php?page=
+inurl:page.php?inc=
+allinurl:admin mdb
+inurl:/cgi-bin/mylog.phtml
+allinurl:/index.php?file= site:*.dk
+inurl:sub*.php?include=
+inurl:/phpgwapi/setup/tables_update.inc.php?appdir=
+inurl:path.php?menue=
+inurl:file.php?loader=
+ext:asa | ext:bak intext:uid intext:pwd -"uid..pwd" database | server | dsn
+inurl:"funny.php?id="
+inurl:gallery.php?viewpage=
+intext:"Select a database to view" intitle:"filemaker pro"
+inurl:mod*.php?to=
+inurl:main.php?link=
+intitle:\"PhpMyExplorer\" inurl:\"index.php\" -cvs
+inurl:/inc/pipe.php?HCL_path=
+inurl:/scripts/iisadmin/tools/ctss.idc
+inurl:base.php?choix=
+inurl:show.php?pagina=
+inurl:inc/cmses/aedating4CMS.php?dir[inc]= inurl:flashchat site:br bp_ncom.php?bnrep=
+inurl:padrao.php?OpenPage=
+inurl:view.php?loader=
+inurl:default.php?itemnav=
+inurl:/forum/install.php?phpbb_root_dir=
+intitle:"web server status" SSH Telnet
+inurl:gallery.php?name=
+inurl:index.php?sub=
+inurl:file.php?strona=
+inurl:"show_item_details.asp?item_id="
+inurl:start.php?xlink=
+inurl:default.php?oldal=
+intitle:"edna:streaming mp3 server" -forums
+inurl:"info.php?go="
+inurl:page.php?numero=
+filetype:ctt ctt messenger
+inurl:info.php?base_dir=
+inurl:"notizia.php?id="
+filetype:blt   "buddylist"
+inurl:"displayproducts.asp"
+inurl:blank.php?get=
+inurl:sub*.php?oldal=
+inurl:sub*.php?*root*=
+inurl:default.php?pag=
+inurl:login.cfm
+inurl:index.php?incl=
+inurl:layout.php?path=
+filetype:PS ps
+inurl:mwchat/libs/start_lobby.php?CONFIG[MWCHAT_Libs]=
+inurl:"entrevista.php?id="
+inurl:/modules/4nAlbum/public/displayCategory.php?basepath=
+inurl:index2.php?channel=
+inurl:sub*.php?OpenPage=
+inurl:/cgi-bin/view-source
+inurl:info.php?xlink=
+inurl:start.php?destino=
+inurl:/_layouts/settings
+intext:"Microsoft ® Windows * ™ Version * DrWtsn32 Copyright ©" ext:log
+inurl:/cgi-bin/snorkerz.cmd
+inurl:index2.php?corpo=
+intitle:\"Index of\" upload size parent directory
+inurl:nota.php?tipo=
+inurl:gallery.php?param=
+intext:"password"
+inurl:down*.php?pollname=
+inurl:layout.php?cont=
+inurl:"proposte.php?id="
+intitle:"Philex 0.2*" -s?ri?t -site:freelists.org
+inurl:"news_det.php?id="
+intext:"Invision Power Board Database Error"
+intitle:open-xchange inurl:login.pl
+inurl:index2.php?param=
+inurl:path.php?sec=
+filetype:vcs vcs
+inurl:"viewevent.asp?EventID="
+inurl:/passwd.txt
+inurl:/password
+intitle:"Login -
+inurl:index2.php?strona=
+inurl:"affiliate-agreement.cfm?storeid="
+inurl:principal.php?loader=
+inurl:administrator/components/com_remository/admin.remository.php?mosConfig_absolute_path=
+inurl:nota.php?link=
+inurl:template.php?*[*]*=
+inurl:/myPHPCalendar/admin.php?cal_dir=
+inurl:/includes/include_onde.php?include_file=
+inurl:news_detail.php?file=
+inurl:"productinfo.asp?item="
+extqi pqi -database
+inurl:"GRC.DAT" intext:"password"
+inurl:channel_id=
+inurl:pagina.php?u=
+inurl:"printer/main.html" intext:"settings"
+inurl:enter.php?index=
+inurl:"book_list.asp?bookid="
+intext:"Login to Usermin" inurl:20000
+allintitle: "index of/root"
+inurl:template.php?op=
+inurl:main.php?e=
+inurl:index.jsp
+inurl:index3.php?link=
+inurl:start.php?oldal=
+inurl:press.php?pref=
+inurl:gallery.php?seite=
+inurl:principal.php?strona=
+intext:"Supplied argument is not a valid PostgreSQL result"
+inurl:home.php?cmd=
+inurl:page.php?redirect=
+filetype:xls -site:gov inurl:contact
+inurl:home.php?recipe=
+inurl:index.php?template=
+inurl:cgi-bin inurl:calendar.cfg
+inurl:show.php?index=
+inurl:view.php?mod=
+inurl:"productDetails.asp?idProduct="
+inurl:base.php?incl=
+filetypest inurl:\"outlook.pst\"
+inurl:axis-cgi/mjpg (motion-JPEG)
+inurl:head.php?module=
+inurl:head.php?base_dir=
+inurl:/agendax/addevent.inc.php?agendax_path=
+inurl:home.php?opcion=
+intitle:phpnews.login
+inurl:news-full.php?id=
+inurl:gallery.php?base_dir=
+inurl:start.php?where=
+inurl:"prodotti.php?idprodotto="
+inurl:print.php?pname=
+inurl:base.php?numero=
+inurl:page.php?section=
+inurl:show.php?home=
+inurl:"index.php?id_categoria="
+inurl:"type.asp?iType="
+inurl:blank.php?open=
+inurl:file.php?start=
+inurl:default.php?panel=
+inurl:"showbook.asp?bookid="
+inurl:home.php?addr=
+inurl:memberInfo.php?id=
+intitle:\"album permissions\" \"Users who can modify photos\" \"EVERYBODY\"
+ext:mdb inurl:*.mdb inurl:fpdb shop.mdb
+inurl:/passwd
+inurl:nota.php?ki=
+filetypehp inurl:index inurlhpicalendar -site:sourceforge.net
+inurl:"store_bycat.asp?id="
+allinurl:\"/*/_vti_pvt/\" | allinurl:\"/*/_vti_cnf/\"
+inurl:guestbook.cgi
+inurl:home.php?pa=
+inurl:down*.php?texto=
+inurl:principal.php?read=
+inurl:/administrator/components/com_uhp/uhp_config.php?mosConfig_absolute_path=
+inurl:/cgi-bin/day5datacopier.cgi
+inurl:server.cfg rcon password
+inurl:enter.php?module=
+inurl:index.php?configFile=
+inurl:search/admin.php
+inurl:login.asp
+inurl:"shopadmin.asp" "Shop Administrators only"
+inurl:standard.php?qry=
+inurl:ds.py
+inurl:general.php?to=
+inurl:general.php?adresa=
+intext:"WebSTAR Mail - Please Log In"
+inurl:general.php?channel=
+intitle:"Remote Desktop Web Connection" inurl:tsweb
+Easy File Sharing Web Server"
+inurl:htmltonuke.php?filnavn=
+inurl:sitio.php?mid=
+inurl:*.php?catch=
+inurl:"viewCat_h.asp?idCategory="
+inurl:path.php?recipe=
+inurl:sub*.php?play=
+inurl:"main.php?aid="
+intitle:"Default PLESK Page"
+intext:\"enable secret $\"
+inurl:view.php?cmd=
+inurl:/cgi-bin/mail
+intitle:"index.of *" admin news.asp configview.asp
+inurl:pagina.php?to=
+inurl:nota.php?module=
+inurl:base.php?filepath=
+inurl:index.php?filename=
+inurl:gallery.php?showpage=
+inurl:"privacy.asp?cartID="
+inurl:index.php?w=
+inurl:enter.php?mid=
+inurl:zentrack/index.php?configFile=
+inurl:print.php?OpenPage=
+inurl:"item.asp?eid="
+inurl:/cgi-bin/day5notifier
+inurl:nota.php?home=
+inurl:page.php?url=
+inurl:default.php?left=
+inurl:ogl_inet.php?ogl_id=
+inurl:file.php?middle=
+inurl:/inc/authform.inc.php?path_pre=
+intext:"#mysql dump" filetype:sql
+intitle:"Member Login" "NOTE: Your browser must have cookies enabled in order to log into the site." ext:php OR ext:cgi
+inurl:/scripts/issadmin/bdir.htr
+inurl:enter.php?w=
+intext:"This summary was generated by wwwstat"
+intitle:"MX Control Console" "If you can’t remember"
+inurl:padrao.php?loc=
+intitle:dupics inurl:(add.asp | default.asp | view.asp | voting.asp) -site:duware.com
+inurl:index.php?chapter=
+inurl:"catalogue.php?categoryID="
+inurl:"tuangou.asp?bookid="
+inurl:sub*.php?panel=
+inurl:/login.php?dir=
+intext:"This section is for Administrators only. If you are an administrator then please"
+inurl:  /modules/PNphpBB2/includes/functions_admin.php?phpbb_root_path=
+intitle:"vhost" intext:"vHost . 2000-2004"
+inurl:home.php?action=
+inurl:names.nsf
+inurl:default.php?pre=
+inurl:print.php?itemnav=
+inurl:filezilla.xml -cvs
+filetype:sql ("values * MD5" | "values * password" | "values * encrypt")
+inurl:default.php?y=
+intitle:"index of" intext:globals.inc
+inurl:index.php?screen=
+allintitle:.."Test page for Apache Installation.."
+inurl:principal.php?pag=
+inurl:enter.php?s=
+inurl:sub*.php?pag=
+inurl:index1.php?get=
+inurl:layout.php?pref=
+inurl:/helpcenter/inc/pipe.php?HCL_path=
+inurl:info.php?middlePart=
+inurl:home.php?play=
+intext:"bp blog admin" intitle:login | intitle:admin -site:johnny.ihackstuff.com
+inurl:layout.php?menue=
+inurl:start.php?*root*=
+inurl:authors.pwd
+inurl:nota.php?seccion=
+inurl:"post.php?id="
+inurl:layout.php?play=
+inurl:phpwcms/include/inc_ext/spaw/dialogs/table.php?spaw_root=
+inurl:"sitescope.html" intitle:"sitescope" intext:"refresh" -demo
+inurl:press.php?channel=
+intitle:"TOPdesk ApplicationServer"
+ext:gho gho
+inurl:press.php?module=
+intitle:hpinfo "PHP Version"
+inurl:support
+inurl:start.php?secao=
+intext:"Generated by phpSystem"
+inurl:home.php?basepath=
+inurl:"index.php?k_id="
+inurl:sitio.php?strona=
+inurl:pagina.php?modo=
+inurl:layout.php?numero=
+inurl:nph-test-cgi
+inurl:(@version,0x3a,databse)
+intitle:"Uploader – Uploader v6″ -pixloads.com
+inurl:base.php?opcion=
+intitle:"Novell Web Services" intext:"Select a service and a language."
+filetype:log "PHP Parse error" | "PHP Warning" | "PHP Error"
+inurl:start.php?lang=
+inurl:index2.php?OpenPage=
+inurl:page.php?z=
+inurl:principal.php?load=
+inurl:/modules/mod_mainmenu.php?mosConfig_absolute_path=
+inurl:index1.php?itemnav=
+inurl:sub*.php?modo=
+inurl:/cgi-bin/zsh
+intitle:"edna:streaming mp3 server"   -forums
+inurl:padrao.php?oldal=
+intitle:"Retina Report" "CONFIDENTIAL INFORMATION"
+inurl:down*.php?pageweb=
+intext:"set up the administrator user" inurl:pivot
+inurl:standard.php?oldal=
+inurl:ocw_login_username
+inurl:mod*.php?oldal=
+inurl:/index.php?x=
+inurl:/index.php?open=
+inurl:index.php?t=
+inurl:print.php?addr=
+inurl:/includes/setup.php?phpc_root_path=
+inurl:main.php?name=
+inurl:"editor/list.asp" | inurl:"database_editor.asp" | inurl:"login.asa" "are set"
+inurl:show.php?inc=
+inurl:index1.php?filepath=
+inurl:/cgi-bin/test-cgi
+inurl:sitio.php?destino=
+intitle:"PHP   Advanced Transfer" (inurl:index.php | inurl:showrecent.php )
+inurl:gallery.php?basepath=
+inurl:/jscript.php?my_ms[root]=
+inurl:netscape.hst
+inurl:layout.php?my=
+inurl:sitio.php?incl=
+filetype:pwl pwl
+inurl:/index2.php?content=
+intitle:index.of master.passwd
+intitle:Novell intitle:WebAccess "Copyright &# Novell, Inc"
+inurl:general.php?w=
+intitle:IMP inurl:imp/index.php3
+inurl:/scripts/upload.asp
+inurl:"cart.asp?cart_id="
+intext:"Internal Server Error" "server at"
+inurl:gallery.php?url=
+inurl:"help.asp?CartId="
+filetype:php inurl:nqt intext:"Network Query Tool"
+inurl:"img.php?ID="
+filetype:lic lic intext:key
+inurl:padrao.php?pag=
+inurl:principal.php?ki=
+inurl:pagina.php?choix=
+inurl:include.php?seccion=
+inurl:/modules/PNphpBB2/includes/functions_admin.php?phpbb_root_path=
+intext:"Tobias   Oetiker" "traffic analysis"
+intitle:"Index of" sc_serv.conf sc_serv content
+inurl:padrao.php?middle=
+inurl:components/com_simpleboard/image_upload.php?sbp=
+inurl:/sources/post.php?fil_config=
+inurl:/cgi-bin/finger.pl
+inurl:index2.php?loader=
+inurl:start.php?option=
+intitle:"statistics of" "advanced web   statistics"
+inurl:enter.php?goto=
+inurl:/iisadmpwd/aexp4.htr
+inurl:"main.php?TID="
+inurl:"shopdisplayproducts.asp"
+inurl:nota.php?category=
+inurl:/index.php?include=
+inurl:"sec.php?sid="
+inurl:forum.php?act=
+inurl:layout.php?category=
+inurl:gallery.php?ref=
+filetype:config web.config -CVS
+inurl:index1.php?type=
+inurl:view.php?panel=
+inurl:down*.php?oldal=
+inurl:head.php?include=
+inurl:show.php?page=
+filetype:xls username password email
+inurl:php inurl:hlstats intext: Half-life statistics file, lists username and
+inurl:\"bookmark.htm\"
+inurl:standard.php?dir=
+inurl:default.asp intitle:"WebCommander"
+inurl:view.php?adresa=
+intitle:"index of" master.passwd
+inurl:"contattaci.php?idlingua="
+inurl:gallery.php?sp=
+inurl:principal.php?f=
+intitle:\"Usage Statistics for\" \"Generated by Webalizer\"
+intitle:"EXTRANET * - Identification"
+inurl:"seccion.php?id="
+inurl:main.php?middle=
+inurl:/cgi-bin/calendar
+inurl:default.php?index=
+allinurl:wps/portal/ login
+inurl:file.php?id=
+inurl:index2.php?DoAction=
+inurl:*inc*.php?ki=
+inurl:view.php?header=
+intext:"Most   Submitted Forms and Scripts" "this section"
+inurl:gallery.php?pname=
+inurl:"prodotti.php?sez="
+filetype:inf   inurl:capolicy.inf
+inurl:standard.php?numero=
+inurl:enter.php?sivu=
+intitle:"Big Sister" +"OK Attention Trouble"
+inurl:base.php?loc=
+inurl:netw_tcp.shtml
+inurl:info.php?f=
+inurl:view.php?disp=
+inurl:/main.php?body=
+inurl:/cgi-bin/axs.cgi
+inurl:principal.php?tipo=
+inurl:index.php?module=
+inurl:view.php?showpage=
+intitle:"VisNetic WebMail" inurl:"/mail/"
+inurl:"Services.asp?ID="
+filetype:ini ws_ftp pwd
+inurl:principal.php?conteudo=
+inurl:tekst.php?idt=
+inurl:main.php?param=
+inurl:/search
+inurl:aglimpse
+inurl:index2.php?pollname=
+inurl:blank.php?pollname=
+inurl:robpoll.cgi filetype:cgi
+inurl:"item_details.asp?catid="
+inurl:"news.php?typ="
+filetypedb pdb backup (Pilot | Pluckerdb)
+inurl:/Merchant2/admin.mv | inurl:/Merchant2/admin.mvc | intitle:"Miva Merchant Administration Login" -inurl:cheap-malboro.net
+intitle:\"index of\" -inurl:htm -inurl:html mp
+inurl:/classes.php?LOCAL_PATH=
+inurl:show.php?get=
+inurl:general.php?left=
+inurl:/wwwboard/passwd.txt</div></pre>
+inurl:index3.php?loader=
+inurl:index.php?place=
+inurl:general.php?xlink=
+inurl:info.php?r=
+inurl:base.php?t=
+inurl:modules/vwar/admin/admin.php?vwar_root=
+inurl:shopdbtest.asp
+intitle:"Usage Statistics for" "Generated by   Webalizer"
+intitle:"admin panel" +"
+inurl:mod*.php?index=
+inurl:/cgi-bin/bb-hist.sh
+inurl:administrators.pwd
+inurl:sub*.php?goFile=
+inurl:*inc*.php?inc=
+inurl:"agenda.php?p="
+intitle:"MX Control Console" "If you can't remember"
+inurl:Proxy.txt
+inurl:template.php?play=
+inurl:general.php?ref=
+inurl:nota.php?ir=
+inurl:view-source
+intext:\"Tobias Oetiker\" \"traffic analysis\"
+inurl:"browse_item_details.asp"
+inurl:default.php?body=
+inurl:"viewPrd.asp?idcategory="
+inurl:index2.php?redirect=
+inurl:nota.php?option=
+inurl:/coin_includes/constants.php?_CCFG[_PKG_PATH_INCL]=
+inurl:log.nsf -gov
+inurl:"collections.php?ID="
+inurl:/cgi-bin/nlog-smb.pl
+inurl:page.php?loader=
+inurl:standard.php?e=
+inurl:home.php?itemnav=
+inurl:index2.php?basepath=
+inurl:index2.php?in=
+inurl:sub*.php?lang=
+inurl:/coppermine/themes/maze/theme.php?THEME_DIR=
+inurl:source.asp
+filetype:DIFF DIFF
+inurl:press.php?to=
+inurl:"checkout.asp?cartid="
+inurl:/index.php?level=
+inurl:default.php?abre=
+inurl:/iisadmpwd/aexp2.htr
+inurl:start.php?panel=
+inurl:template.php?secao=
+inurl:index.php?topic=
+inurl:db.php?path_local=
+inurl:"artigos.php?tipo="
+inurl:index.php?do=
+inurl:index2.php?ir=
+inurl:index.php?menu=
+inurl:"calendario.php?dia="
+inurl:/cgi-bin/finger? "In real life"
+intitle:"i-secure v1.1″ -edu
+inurl:padrao.php?var=
+inurl:home.php?sp=
+inurl:inc
+inurl:default.php?channel=
+filetype:blt blt +intext:screenname
+ext:asp \"powered by DUForum\" inurlmessages|details|login|default|register) -site:duware.com
+inurl:mod*.php?include=
+inurl:confixx inurl:login|anmeldung
+inurl:nota.php?content=
+inurl:survey.cgi
+inurl:"index.php?cata_id="
+inurl:file.php?n=
+inurl:"print_en.php?id="
+inurl:default.php?load=
+intitle:"switch login" "IBM Fast Ethernet Desktop"
+inurl:sub*.php?channel=
+inurl:components/com_mtree/Savant2/Savant2_Plugin_stylesheet.php?mosConfig_absolute_path=
+inurl:includes/search.php?GlobalSettings[templatesDirectory]=
+inurl:login.jsp.bak
+inurl:home.php?rub=
+inurl:down*.php?lang=
+inurl:"links.php?catid="
+inurl:info.php?z=
+inurl:print.php?chapter=
+filetype:dat inurl:Sites.dat
+inurl:sitio.php?category=
+inurl:index.php?param=
+inurl:*inc*.php?ev=
+inurl:index1.php?go=
+inurl:down*.php?sp=
+filetype:ini inurl:"serv-u.ini"
+inurl:template.php?pre=
+inurl:head.php?mod=
+inurl:mod*.php?module=
+inurl:blank.php?rub=
+filetype:inc mysql_connect OR mysql_pconnect
+inurl:"powersearch.asp?CartId="
+inurl:+union+select+ pass
+inurl:include.php?url=
+inurl:template.php?load=
+inurl:email filetype:mdb
+inurl:base.php?l=
+inurl:trainers.php?id=
+inurl:page.php?goto=
+filetype:cnf inurl:_vti_pvt access.cnf
+filetype:rdp rdp Remote Desktop Connection files reveal user
+inurl:"shopcurrency.asp?cid="
+inurl:index2.php?my=
+inurl:pop.php?id=
+inurl:enter.php?sp=
+inurl:include.php?basepath=
+inurl:standard.php?pref=
+inurl:/hcl/inc/pipe.php?HCL_path=
+intitle:"sysinfo * " intext:"Generated by Sysinfo * written by The Gamblers."
+filetypest inurl:"outlook.pst"
+inurl:principal.php?index=
+intext:"login prompt" inurl:GM.cgi
+inurl:nota.php?mod=
+inurl:/surveys/survey.inc.php?path=
+inurl:"servicios.php?categoria="
+intitle:"index.of" .diz .nfo last modified
+inurl:produit.php?id=
+inurl:file.php?pref=
+inurl:padrao.php?xlink=
+inurl:review.php?id=
+inurl:standard.php?goto=
+intitle:"AppServ Open Project" -site:www.appservnetwork.com
+inurl:info.php?pageweb=
+inurl:padrao.php?url=
+inurl:base.php?seite=
+inurl:index.php?sel=
+intext:"Welcome to the Prestige Web-Based Configurator"
+inurl:general.php?sekce=
+inurl:general.php?pageweb=
+inurl:admin/doeditconfig.php?thispath=../includes&config[path]=
+inurl:/cgi-bin/man.sh
+inurl:main.php?load=
+intext:"These statistics were produced by getstats"
+inurl:path.php?doshow=
+inurl:principal.php?z=
+inurl:components/com_rsgallery/rsgallery.html.php?mosConfig_absolute_path=
+intitle:"Welcome to the Advanced Extranet Server, ADVX!"
+inurl:"list.asp?bookid="
+inurl:gallery.php?pg=
+inurl:file.php?inc=
+inurl:mod*.php?section=
+intext:"allow_call_time_pass_reference"   "PATH_INFO"
+inurl:nota.php?disp=
+intext:"robots.txt"   "Disallow:" filetype:txt
+inurl:/cgi-bin/GW5
+inurl:gallery.php?action=
+inurl:/page.php?view=
+intitle:"supervisioncam protocol"
+filetype:pst inurl:"outlook.pst"
+inurl:standard.php?body=
+inurl:/cgi-bin/perl.exe
+inurl:default.php?module=
+intitle:"ColdFusion Administrator Login"
+inurl:pagina.php?k=
+ext:txt inurl:dxdiag
+inurl:path.php?action=
+inurl:enter.php?thispage=
+inurl:/cgi-bin/post-query
+inurl:/_layouts/settings
+inurl:/index.inc.php?PATH_Includes=
+inurl:index1.php?oldal=
+inurl:/scripts/cpshost.dll
+inurl:path.php?my=
+inurl:"chisiamo.php?idlingua="
+inurl:index3.php?base_dir=
+inurl:wp-mail.php + "There doesn’t seem to be any new mail."
+intext:"You have requested access to a restricted area of our website. Please authenticate yourself to continue."
+inurl:"Store_ViewProducts.asp?Cat="
+inurl:/index.php?page=
+inurl:standard.php?menu=
+inurl:/cgi-bin/finger.cgi
+inurl:dumpenv.pl
+inurl:path.php?where=
+intext:"HTTP_FROM=googlebot" googlebot.com "Server_Software="
+inurl:blank.php?pagina=
+inurl:pagina.php?nivel=
+inurl:sub*.php?z=
+inurl:index3.php?inc=
+inurl:classifieds.cgi
+inurl:"calendars?ri?t/users.txt"
+intext:gmail invite intext:http://gmail.google.com/gmail/a
+intitle:intranet inurl:intranet +intext:\"phone\"
+inurl:sitio.php?*root*=
+inurl:nota.php?rub=
+inurl:"articoli.php?id="
+inurl:gallery.php?pollname=
+ext:conf NoCatAuth -cvs
+inurl:standard.php?chapter=
+inurl:press.php?goFile=
+intitle:"SHOUTcast Administrator" inurl:admin.cgi
+inurl:/cgi-bin/rsh
+inurl:standard.php?url=
+inurl:pagina.php?loc=
+inurl:info.php?pname=
+inurl:template.php?sp=
+inurl:sub*.php?phpbb_root_path=
+inurl:wp-mail.php + "There doesn't seem to be any new mail."
+inurl:index.php?pilih=
+inurl:port.php?content=
+inurl:mail
+intitle:\"phpremoteview\" filetypehp \"Name* Size*
+inurl:/cgi-bin/uptime
+inurl:default.php?id=
+inurl:view.php?seite=
+inurl:view.php?where=
+inurl:blank.php?channel=
+inurl:names.nsf?opendatabase
+inurl:down*.php?inc=
+inurl:layout.php?panel=
+filetype:conf   inurl:firewall -intitle:cvs
+intitle:"phpPgAdmin - Login" Language
+inurl:"Activex/default.htm" "Demo"
+inurl:"calendario.php?mes="
+ext:cfg radius.cfg
+intext:"Copyright © Tektronix, Inc." "printer status"
+inurl:print.php?param=
+inurl:include.php?include=
+intitle:osCommerce inurl:admin intext:"redistributable under the GNU" intext:"Online Catalog" -demo -site:oscommerce.com
+inurl:htmlscript
+inurl:wais.pl
+inurl:sitio.php?e=
+intitle:"EverFocus.EDSR.applet"
+intitle:"index   of" mysql.conf OR mysql_config
+inurl:/include/footer.inc.php?_AMLconfig[cfg_serverpath]=
+inurl:"shoptellafriend.asp?id="
+inurl:press.php?link=
+inurl:page.php?incl=
+inurl:"order.asp?item_ID="
+inurl:post-query
+inurl:/cgi-bin/dumpenv.pl
+inurl:pagina.php?type=
+inurl:/cgi-dos/args.bat
+inurl:/cgi-bin/bash
+inurl:"shop.asp?a="
+inurl:index1.php?pa=
+inurl:padrao.php?eval=
+inurl:/cgi-bin/date
+intext:"Index of /admin"
+inurl:/tutorials/print.php?page=
+inurl:general.php?get=
+inurl:"shop.asp?action="
+inurl:/main.php?view=
+inurl:show.php?base_dir=
+ext:vmx vmx
+inurl:page.php?modo=
+intitle:"Apache::Status" (inurl:server-status |   inurl:status.html | inurl:apache.html)
+inurl:tradeCategory.php?id=
+inurl:sw_comment.php?id=
+filetype:log intext:"ConnectionManager2"
+inurl:standard.php?pollname=
+filetype:cfg ks intext:rootpw -sample -test -howto
+inurl:include.php?filepath=
+intitle:"DocuShare" inurl:"docushare/dsweb/" -faq
+inurl:index.cfm
+inurl:*inc*.php?menu=
+intext:"Mecury Version" "Infastructure Group"
+inurl:"OrderForm.asp?Cart="
+inurl:info.php?in=
+inurl:down*.php?param=
+inurl:log.nsf -gov
+inurl:/modules/TotalCalendar/about.php?inc_dir=
+inurl:/zipndownload.php?PP_PATH=
+inurl:principal.php?filepath=
+inurl:home.php?menu=
+inurl:sitio.php?middlePart=
+inurl:main.php?goto=
+filetype:ctt Contact
+intitle:"site administration: please log in" "site designed by emarketsouth"
+inurl:head.php?incl=
+inurl:lilo.conf filetype:conf password -tatercounter2000 -bootpwd -man
+inurl:impex/ImpExData.php?systempath=
+intitle:"live view" intitle:axis
+inurl:"display_item.asp?id="
+inurl:start.php?seite=
+inurl:index2.php?pref=
+filetype:pst pst -from -to -date
+intitle:"Azureus : Java BitTorrent Client Tracker"
+inurl:/shoutbox/expanded.php?conf=
+intitle:"WJ-NT104 Main Page"
+inurl:info.php?ir=
+filetype:cfg   auto_inst.cfg
+inurl:padrao.php?basepath=
+intitle:"Samba Web Administration Tool" intext:"Help Workgroup"
+inurl:/htmltonuke.php?filnavn=
+inurl:path.php?ir=
+inurl:show.php?sp=
+inurl:show.php?n=
+inurl:file.php?load=
+inurl:show.php?cmd=
+intext:SQLiteManager   inurl:main.php
+inurl:index.php?pagename=
+intitle:"--- VIDEO WEB SERVER ---" intext:"Video Web Server" "Any time & Any
+inurl:layout.php?ir=
+inurl:"ampliacion.php?id="
+inurl:/sources/functions.php?CONFIG[main_path]=
+inurl:mod*.php?pname=
+inurl:index_principal.php?pagina=
+inurl:"pagedisplay.php?page="
+inurl:template.php?sekce=
+inurl:index.php?meio.php=
+inurl:index.php?path=
+inurl:path.php?tipo=
+inurl:path.php?pref=
+inurl:mod*.php?destino=
+inurl:index3.php?var=
+inurl:global.cgi
+inurl:base.php?ir=
+inurl:"show_item.asp?id="
+inurl:index.php?inc=
+inurl:"agenda.php?t="
+inurl:view.php?get=
+inurl:press.php?ev=
+inurl:"ordini.php?id="
+inurl:sub*.php?qry=
+inurl:shopping.php?id=
+inurl:standard.php?xlink=
+inurl:main.php?doshow=
+inurl:ospfd.conf intext:password -sample -test -tutorial -download
+inurl:index.php?pname=
+intitle:"Welcome Site/User Administrator" "Please select the language" -demos
+inurl:imagemap.exe
+inurl:info.php?header=
+intitle:"Index of" cfide
+inurl:down*.php?pa=
+inurl:/cgi-bin/bnbform
+iletype:log cron.log
+inurl:"subcategories.asp?id="
+filetype:inf inurl:capolicy.inf
+inurl:gallery.php?pref=
+inurl:path.php?secao=
+inurl:print.php?doshow=
+inurl:enter.php?start=
+intitle:"Joomla - Web Installer"
+inurl:padrao.php?c=
+inurl:hall.php?page=
+inurl:interna/tiny_mce/plugins/ibrowser/ibrowser.php?tinyMCE_imglib_include=
+inurl:sub*.php?base_dir=
+intext:"Please login with admin pass" -"leak" -sourceforge
+inurl:blank.php?basepath=
+inurl:head.php?cmd=
+inurl:view.php?choix=
+inurl:"projekte.php?pid="
+inurl:"shopdc.asp?bookid="
+inurl:"cars.php?page="
+allintitle: "index of/admin"
+intitle:"Gateway Configuration Menu"
+inurl:print.php?option=
+inurl:page.php?g=
+intext:"Unclosed quotation mark before the character string"
+filetype:lic lic intext:key
+inurl:index.php?body=
+inurl:principal.php?corpo=
+inurl:start.php?mid=
+inurl:start.php?abre=
+inurl:pagina.php?sekce=
+inurl:enter.php?loader=
+intitle:Index.of etc shadow
+inurl:"putty.reg"
+inurl:head.php?filepath=
+intext:"Network Vulnerability Assessment Report"
+inurl:article.php?ID=
+inurl:principal.php?middle=
+inurl:sub*.php?menue=
+inurl:gallery.php?go=
+AnyBoard" intitle:"If you are a new user:" intext:"Forum
+inurl:sub*.php?name=
+filetype:r2w r2w
+inurl:htimage.exe
+inurl:file.php?var=
+intext:"not for distribution"   confidential
+inurl:/spid/lang/lang.php?lang_path=
+inurl:viewphoto.php?id=
+intitle:index.of "Apache" "server at"
+inurl:index2.php?category=
+inurl:"item.asp?itemid="
+inurl:home.php?g=
+intitle:intranet   inurl:intranet +intext:"phone"
+inurl:page.php?*[*]*=
+inurl:nota.php?itemnav=
+inurl:"schedule.php?d="
+inurl:template.php?dir=
+intext:\"Powered By: TotalIndex\" intitle:\"TotalIndex\"
+inurl:/include/authform.inc.php?path_pre=
+intitle:"ePowerSwitch Login"
+inurl:"index.asp?cart="
+intitle:"Belarc Advisor Current Profile" intext:"Click here for Belarc's PC Management products, for large and small companies."
+inurl:"wwwroot/*."
+inurl:main.php?second=
+inurl:"products_category.asp?CategoryID="
+inurl:print.php?type=
+filetype:reg reg +intext:"defaultusername" +intext:"defaultpassword"
+inurl:/db/main.mdb
+inurl:list
+inurl:head.php?sivu=
+inurl:prod_info.php?id=
+inurl:"index.php?OID="
+inurl:"categorydisplay.asp?catid="
+inurl:view.php?pollname=
+inurl:sitio.php?index=
+inurl:admin filetype:db
+inurl:index.php?dept=
+inurl:"ViewerFrame?Mode="
+inurl:principal.php?abre=
+inurl:perl/printenv
+filetype:conf inurl:psybnc.conf "USER.PASS="
+intitle:"Flash Operator Panel" -ext:php -wiki -cms -inurl:asternic -inurl:sip -intitle:ANNOUNCE -inurl:lists
+inurl:/cgi-bin/input2.bat
+inurl:index2.php?incl=
+intitle:"Belarc Advisor Current Profile" intext:"Click here for Belarc’s PC Management products, for large and small companies."
+inurl:start.php?seccion=
+inurl:passlist.txt
+inurl:"searchcat.asp?search_id="
+inurl:select_biblio.php?id=
+intext:"YaBB SE Dev Team"
+inurl:*inc*.php?include=
+inurl:print.php?page=
+inurl:padrao.php?h=
+inurl:gallery.php?phpbb_root_path=
+inurl:changepassword.cgi -cvs
+inurl:sitio.php?option=
+inurl:standard.php?abre=
+inurl:"specials.asp?id="
+inurl:blank.php?path=
+inurl:"produto.php?cid="
+inurl:forward filetype:forward -cvs
+intitle:"Content Management System" "user name"|"password"|"admin" "Microsoft IE 5.5" -mambo
+intitle:\"Directory Listing For\" intext:Tomcat -intitle:Tomcat
+inurl:index3.php?pageweb=
+inurl:index3.php?itemnav=
+filetype:fp fp -site:gov -site:mil -\"cvs log\"
+intitle:"VNC viewer for Java"
+intitle:"xams 0.0.0..15 - Login"
+filetype:bkf bkf
+inurl:"index2.asp?slid="
+inurl:main.php?oldal=
+inurl:index2.php?pg=
+inurl:home.php?oldal=
+inurl:campas
+intext:SQLiteManager inurl:main.php
+inurl:general.php?itemnav=
+inurl:default.php?str=
+inurl:press.php?redirect=
+inurl:page.php?action=
+inurl:"StoreRedirect.asp?ID="
+intext:"robots.txt" "Disallow:" filetype:txt
+inurl:/cgi-bin/sh
+filetype:ldb admin
+inurl:pagina.php?id=
+inurl:faxsurvey
+inurl:nota.php?corpo=
+inurl:press.php?xlink=
+intext:"phone * * *" "address *" "e-mail" intitle:"curriculum   vitae"
+inurl:info.php?subject=
+inurl:file.php?doshow=
+inurl:glimpse
+inurl:include.php?sec=
+inurl:/cgi-bin/search.cgi
+inurl:general.php?id=
+inurl:"productsByCategory.asp?intCatalogID="
+inurl:template.php?lang=
+inurl:/ppa/inc/functions.inc.php?config[ppa_root_path]=
+intitle:"EverFocus.EDSR.app<-b>let"
+inurl:nota.php?abre=
+inurl:head.php?ki=
+inurl:template.php?name=
+inurl:/cgi-bin/php
+inurl:print.php?open=
+inurl:template.php?corpo=
+intext:"Warning:" "failed to open stream: HTTP request failed" "on line"
+intitle:\"statistics of\" \"advanced web statistics\"
+inurl:sub*.php?itemnav=
+inurl:nota.php?sekce=
+inurl:head.php?inc=
+inurl:add.exe
+intitle:"index of" +myd size
+inurl:/iisadmpwd/achg.htr
+inurl:home.php?w=
+inurl:general.php?module=
+inurl:pagina.php?sec=
+intext:"SnortSnarf alert page"
+inurl:standard.php?in=
+inurl:avd_start.php?avd=
+inurl:"articolo.php?id="
+iletype:log cron.log
+inurl:"events.asp?ID="
+intext:"Emergisoft web applications are a part of our"
+inurl:page.php?id=
+inurl:press.php?*root*=
+intext:"ttawlogin.cgi/?action="
+inurl:index3.php?go=
+inurl:help.php?css_path=
+inurl:include.php?secao=
+inurl:info.php?loader=
+inurl:"index.php?LID="
+inurl:down*.php?left=
+inurl:template.php?doshow=
+inurl:show.php?play=
+inurl:/modules/vwar/admin/admin.php?vwar_root=
+inurl:head.php?g=
+intext:"An illegal character has been found in the statement" -"previous message"
+inurl:index2.php?load=
+inurl:/scripts/postinfo.asp
+inurl:default.asp
+inurl:"e_index.php?id="
+inurl:home.php?disp=
+inurl:bnbform.cgi
+inurl:down*.php?z=
+inurl:/modules/xgallery/upgrade_album.php?GALLERY_BASEDIR=
+intitle:"Login to the forums – @www.aimoo.com" inurl:login.cfm?id=
+intitle:\"AppServ Open Project\" -site:[Only Registered Users Can See Links] ([Only Registered Users Can See Links])
+inurl:/cgi-bin/FormHandler.cgi
+inurl:head.php?index=
+inurl:index2.php?option=
+inurl:index1.php?menu=
+inurl:standard.php?param=
+inurl:start.php?op=
+inurl:path.php?y=
+intext:"please log in"
+inurl:head.php?c=
+inurl:index.php?RP_PATH=
+inurl:index2.php?rub=
+inurl:/cgi-bin/pfdispaly.cgi
+inurl:"fotos.php?ver="
+intext:"PostgreSQL query failed: ERROR: parser: parse error"
+inurl:sub*.php?adresa=
+inurl:/cgi-bin/phpscan
+inurl:getmsg.html intitle:hotmail
+inurl:principal.php?pagina=
+inurl:/components/com_mtree/Savant2/Savant2_Plugin_textarea.php?mosConfig_absolute_path=
+inurl:view.php?oldal=
+inurl:*.php?f=
+inurl:"giftDetail.asp?id="
+inurl:general.php?redirect=
+inurl:index2.php?recipe=
+inurl:pbserver.dll
+intext:"phpMyAdmin MySQL-Dump" "INSERT INTO" -"the"
+inurl:index1.php?adresa=
+inurl:rub.php?idr=
+intitle:index.of dead.letter
+inurl:administrator "welcome to mambo"
+inurl:index2.php?inc=
+inurl:stats.htm
+inurl:"view_detail.asp?ID="
+inurl:content.php?page=
+inurl:blank.php?name=
+inurl:index2.php?filepath=
+inurl:"piclist.php?id="
+intitle:"Joomla – Web Installer"
+inurl:home.php?eval=
+inurl:sitio.php?menue=
+allinurl:cdkey.txt
+intitle:"phpinfo()" +"mysql.default_password" +"Zend s?ri?ting Language Engine"
+inurl:print.php?menu=
+inurl:"details.php?prodid="
+inurl:"adclick.php?a="
+inurl:"tek9.asp?"
+inurl:file.php?url=
+inurl:include.php?pageweb=
+inurl:enter.php?subject=
+inurl:enter.php?incl=
+inurl:index.php?side=
+inurl:/cgi-bin/finger
+inurl:include.php?index=
+inurl:index.php?url=
+intext:"Incorrect syntax near"
+inurl:register.cgi
+inurl:standard.php?destino=
+inurl:main.php?content=
+inurl:include.php?channel=
+inurl:nota.php?cmd=
+inurl:view.php?go=
+inurl:index.php?nic=
+intext:"Thank you for your order"   +receipt
+inurl:ray.php?id=
+inurl:"item.asp?prodtype="
+inurl:/publisher/
+inurl:gallery.php?var=
+inurl:/showfile.asp
+inurl:index1.php?load=
+intitle:\"index of\" intext:\"content.ie\"
+inurl:"story_detail.php?id="
+intext:"Phorum Admin" "Database Connection" inurl:forum inurl:admin
+intitle:"Index of" .bash_history
+inurl:main.php?opcion=
+inurl:padrao.php?d=
+inurl:"smb.conf"   intext:"workgroup" filetype:conf conf
+inurl:page.php?showpage=
+inurl:enter.php?middle=
+inurl:enter.php?body=
+inurl:start.php?pg=
+inurl:gallery.php?pageweb=
+inurl:"viewCart.asp?userID="
+inurl:index.html.bak
+filetype:wab wab Microsoft Outlook Express Mail address
+inurl:show.php?nivel=
+inurl:page.php?cont=
+inurl:sub*.php?*[*]*=
+inurl:blank.php?o=
+filetype:STM STM
+inurl:reagir.php?num=
+inurl:index3.php?sivu=
+inurl:press.php?pr=
+inurl:ssi
+inurl:/cgi-bin/LWGate.cgi
+inurl:head.php?numero=
+inurl:"personalidades.php?id="
+inurl:"homepage.php?rid="
+inurl:layout.php?pollname=
+inurl:padrao.php?secc=
+inurl:sitio.php?nivel=
+inurl:home.php?k=
+inurl:transcript.php?id=
+inurl:shop.php?do=part&id=
+inurl:mod*.php?phpbb_root_path=
+intext:"Running in Child mode"
+inurl:principal.php?in=
+inurl:amadmin.pl
+inurl:metaframexp/default/login.asp | intitle:"Metaframe XP Login"
+inurl:"cart.asp?action="
+inurl:exchweb/bin/auth/owalogon.asp
+inurl:"news_archivio.php?id="
+inurl:show.php?b=
+inurl:index1.php?l=
+intitle:"Novell Web Services" "GroupWise" -inurl:"doc/11924″ -.mil -.edu -.gov -filetype:pdf
+inurl:/index2.php?x=
+inurl:sub*.php?op=
+inurl:/help/faq/inc/pipe.php?HCL_path=
+inurl:includes/header.php?systempath=
+inurl:admin/index.php?o=
+inurl:view/index.shtml
+inurl:/scripts/tools/newdsn.exe
+inurl:blank.php?panel=
+inurl:nota.php?nivel=
+inurl:index3.php?t=
+inurl:perl.exe
+filetypewl pwl
+inurl:sub*.php?left=
+inurl:perlshop.cgi
+inurl:padrao.php?open=
+inurl:index.php?option=
+inurl:/tools/send_reminders.php?includedir=
+intext:"this proxy is working fine!" "enter *" "URL***" * visit
+inurl:mod*.php?m=
+inurl:file.php?sivu=
+inurl:general.php?texto=
+inurl:"addcart.asp?"
+intitle:index.of intext:"secring.skr"|"secring.pgp"|"secring.bak"
+inurl:/cgi-bin/htmlscript
+inurl:view.php?incl=
+intitle:"TUTOS Login"
+inurl:folder.php?id=
+inurl:path.php?header=
+inurl:pagina.php?oldal=
+inurl:default.php?pr=
+inurl:/index1.php?link=
+inurl:/cgi-bin/websendmail
+intext:"not for   distribution" confidential
+inurl:down*.php?r=
+inurl:/main.php?page=
+inurl:index.php.bak
+intext:"access denied for user" "using password"
+inurl:default.php?cmd=
+inurl:blank.php?filepath=
+inurl:general.php?inc=
+inurl:info.php?menue=
+inurl:sitio.php?sivu=
+inurl:show.php?*root*=
+intext:"Host Vulnerability Summary Report"
+inurl:main.php?pg=
+inurl:mod*.php?middle=
+filetype:php inurl:"logging.php" "Discuz" error
+inurl:index.php?to=
+intext:\"Session Start * * * *:*:* *\" filetype:log
+inurl:*.php?include=
+inurl:/scripts/uploadn.asp
+index.of perform.ini mIRC IRC ini file can list IRC usernames and
+inurl:"NmConsole/Login.asp" | intitle:"Login – Ipswitch WhatsUp Professional 2005″ | intext:"Ipswitch WhatsUp Professional 2005 (SP1)" "Ipswitch, Inc"
+filetype:ctt ctt messenger
+inurl:"home.php?b="
+inurl:/smdata.dat
+inurl:page.php?phpbb_root_path=
+inurl:down*.php?showpage=
+inurl:"index.php?rubrik="
+inurl:administrator/components/com_cropimage/admin.cropcanvas.php?cropimagedir=modules/My_eGallery/index.php?basepath=
+inurl:general.php?include=
+inurl:passwd   filetype:txt
+inurl:clanek.php4?id=
+inurl:"film.php?id="
+filetype:inc intext:mysql_connect
+inurl:/cgi-bin/mlog.phtml
+inurl:mod*.php?tipo=
+inurl:show_news.php?cutepath=
+inurl:sitio.php?r=
+intitle:"please login" "your password is *"
+inurl:index3.php?d=
+inurl:include.php?phpbb_root_path=
+inurl:"libro.php?id="
+intext:"d.aspx?id" || inurl:"d.aspx?id"
+inurl:mod*.php?addr=
+intext:"produced by getstats"
+intext:"ORA-12541: TNS:no listener" intitle:"error occurred"
+filetypel -intext:\"/usr/bin/perl\" inurl:webcal (inurl:webcal | inurl:add | inurl:delete | inurl:config)
+inurl:changepassword.asp
+filetypeass pass intext:userid
+inurl:down*.php?v=
+inurl:show.php?read=
+inurl:include.php?dir=
+inurl:padrao.php?*[*]*=
+inurl:WSFTP.LOG
+inurl:index3.php?abre=
+inurl:index.php?oldal=
+inurl:index2.php?include=
+inurl:index1.php?t=
+inurl:/cgi-bin/excite
+inurl:AT-generate.cgi
+inurl:blank.php?id=
+inurl:index.php?canal=
+filetype:pl "Download: SuSE Linux Openexchange Server CA"
+inurl:/cgi-bin/test-cgi.tcl
+inurl:start.php?sivu=
+inurl:"vsadmin/login" | inurl:"vsadmin/admin" inurl:.php|.asp
+inurl:file.php?ref=
+inurl:show.php?pageweb=
+inurl:"index.php?pg="
+inurl:default.php?name=
+inurl:index.php?filepath=
+inurl:padrao.php?incl=
+inurl:/cgi-bin/bigconf.cgi
+inurl:head.php?where=
+intext:"AutoCreate=TRUE password=*"
+filetype:url +inurl:"ftp://" +inurl:";@"
+intitle:"OnLine Recruitment Program – Login"
+inurl:"prodotti.php?idsottocat="
+inurl:default.php?secao=
+inurl:info.php?go=
+inurl:press.php?inc=
+inurl:mod*.php?cont=
+inurl:principal.php?to=
+inurl:email filetype:mdb
+ext:vmdk vmdk
+inurl:page.php?mid=
+inurl:head.php?goto=
+inurl:"aspx?PageID"
+inurl:pagina.php?seccion=
+inurl:template.php?a=
+inurl:productdetail.php?id=
+inurl:/index.php?inc=
+inurl:pagina.php?include=
+inurl:sitio.php?modo=
+filetype:JHTML JHTML
+inurl:info.php?ki=
+inurl:down*.php?ir=
+inurl:/cgi-bin/test.bat
+ext:txt inurl:unattend.txt
+inurl:/support/faq/inc/pipe.php?HCL_path=
+inurl:/Gallery/displayCategory.php?basepath=
+inurl:nuke filetype:sql
+intext:password | passcode) intextusername | userid | user) filetype:csv
+inurl:info.php?param=
+inurl:view.php?type=
+inurl:head.php?corpo=
+inurl:server-status \"apache\"
+inurl:*.php?load=
+inurl:index.php?j=
+inurl:include.php?u=
+inurl:blank.php?lang=
+inurl:layout.php?incl=
+intitle:"Index Of" -inurl:maillog maillog size
+inurl:file.php?modo=
+inurl:index3.php?index=
+inurl:"cd.php?id="
+inurl:/iisadmpwd/aexp2b.htr
+filetype:DOC DOC
+inurl:"guia.php?id="
+inurl:blank.php?dir=
+inurl:index2.php?pre=
+inurl:communique_detail.php?id=
+inurl:/app/common/lib/codeBeautifier/Beautifier/Core.php?BEAUT_PATH=
+inurl:info.php?*[*]*=
+inurl:*inc*.php?m=
+inurl:"whatsnew.asp?idCategory="
+filetype:ini inurl:\"serv-u.ini\"
+inurl:main.php Welcome to   phpMyAdmin
+inurl:"gallery.php?pID="
+inurl:forward   filetype:forward -cvs
+inurl:"shopprojectlogin.asp"
+inurl:sitio.php?opcion=
+inurl:nota.php?sec=
+inurl:principal.php?w=
+intitle:opengroupware.org "resistance is obsolete" "Report Bugs" "Username" "password"
+inurl:view_faq.php?id=
+inurl:"servicios.php?id="
+inurl:main.php?corpo=
+inurl:collectionitem.php?id=
+inurl:default.php?e=
+inurl:head.php?ev=
+inurl:base.php?pa=
+intitle:"iDevAffiliate - admin" -demo
+inurl:enter.php?get=
+inurl:"storie.php?id="
+inurl:index1.php?x=
+inurl:index3.php?pollname=
+inurl:sub*.php?content=
+inurl:\"cacti\" +inurl:\"graph_view.php\" +\"Settings Tree View\" -cvs -RPM
+filetype:php inurl:index inurl:phpicalendar -site:sourceforge.net
+intitle:"Index of" pwd.db
+inurl:principal.php?s=
+ext:ini Version= password
+inurl:main.php?inc=
+intext:"There seems to have been a problem with the" " Please try again by clicking the Refresh button in your web browser."
+inurl:nota.php?subject=
+intext:"Warning: mysql_connect(): Access denied for user: '*@*" "on line" -help -forum
+inurl:"cards.php?id="
+inurl:/poll/admin/common.inc.php?base_path=
+inurl:show.php?j=
+inurl:/contrib/yabbse/poc.php?poc_root_path=
+htpasswd / htpasswd.bak
+inurl:sub*.php?middle=
+intitle:"SFXAdmin – sfx_global" | intitle:"SFXAdmin – sfx_local" | intitle:"SFXAdmin – sfx_test"
+inurl:enter.php?itemnav=
+inurl:index.php?r=
+inurl:"section.php?id="
+inurl:path.php?sivu=
+intitle:"php icalendar administration" -site:sourceforge.net
+inurl:down*.php?in=
+inurl:administrator/components/com_remository/admin.remository.php?mosConfig_absolute_path= /tags.php?BBCodeFile=
+inurl:down*.php?choix=
+inurl:index1.php?my=
+inurl:index.phpmain.php?x=
+inurl:index2.php?ref=
+inurl:includes/functions.php?phpbb_root_path=
+inurl:principal.php?header=
+inurl:start.php?corpo=
+inurl:/cgi-bin/filemail
+filetype:fp3 fp3
+intitle:index.of inbox dbx
+intitle:\"Index Of\" cookies.txt size
+intext:""BiTBOARD v2.0″ BiTSHiFTERS Bulletin Board"
+inurl:default.php?chapter=
+inurl:"/catalog.nsf" intitle:catalog
+inurl:page.php?oldal=
+filetype:torrent torrent
+inurl:index1.php?choix=
+inurl:page.php?seite=
+inurl:principal.php?loc=
+inurl:product.php?id=
+intitle:"Employee Intranet Login"
+inurl:logfile.txt
+inurl:page.php?addr=
+inurl:print.php?ki=
+inurl:sitio.php?start=
+inurl:files.pl
+inurl:*inc*.php?to=
+inurl:"viewitem.asp?recor="
+inurl:file
+inurl:padrao.php?header=
+inurl:"events.php?nr="
+inurl:gallery.php?module=
+inurl:file.php?ki=
+inurl:base.php?middlePart=
+inurl:index2.php?url_page=
+intext:"Network Host Assessment Report" "Internet Scanner"
+inurl:file.php?second=
+intitle:"Big   Sister" +"OK Attention Trouble"
+filetype:cfg mrtg "target
+inurl:/modules/coppermine/include/init.inc.php?CPG_M_DIR=
+filetype:sql (\"values * MD\" | \"values * password\" | \"values * encrypt\")
+inurl:page.php?module=
+inurl:template.php?k=
+inurl:*.php?loc=
+filetype:pass pass intext:userid
+inurl:index2.php?thispage=
+inurl:index.php?cont=
+inurl:/yabb/Members/Admin.dat
+inurl:/scripts/CGImail.exe
+inurl:index.php?load=
+inurl:standard.php?eval=
+inurl:"cronica.php?id="
+inurl:include.php?path=
+inurl:*inc*.php?category=
+inurl:index.php?b=
+inurl:layout.php?action=
+inurl:"savecart.asp?CartId="
+inurl:head.php?loader=
+inurl:info.php?recipe=
+inurl:include.php?loader=
+inurl:pagina.php?path=
+inurl:include.php?numero=
+inurl:general.php?read=
+inurl:general.php?strona=
+inurl:sub*.php?u=
+inurl:press.php?where=
+intitle:"ADSL Configuration page"
+inurl:show.php?seccion=
+intext:"# -FrontPage-" ext:pwd inurl:(service | authors | administrators | users) "# -FrontPage-" inurl:service.pwd
+inurl:/cgi-dos/args.cmd
+inurl:include.php?my=
+intitle:"i-secure v1.1" -edu
+inurl:phpSysInfo/ "created by phpsysinfo"
+inurl:"prodlist.asp?catid="
+inurl:press.php?modo=
+inurl:/cgi-bin/jj
+inurl:fellows.php?id=
+inurl:press.php?destino=
+ext:cgi intext:"nrg-" " This web page was created on "
+inurl:padrao.php?redirect=
+inurl:principal.php?pollname=
+inurl:sub*.php?rub=
+filetype:cfm \"cfapplication name\" password
+inurl:down*.php?u=
+inurl:"myaccount.asp?catid="
+inurl:chap-secrets -cvs
+inurl:index3.php?sp=
+inurl:"adminEditProductFields.asp?intProdID="
+intitle:"remote assessment" OpenAanval Console
+inurl:"comersus_optEmailToFriendForm.asp?idProduct="
+inurl:/bz/squito/photolist.inc.php?photoroot=
+inurl:template.php?param=
+inurl:_vti_inf.html
+inurl:view.php?redirect=
+inurl:start.php?play=
+inurl:/wwwboard
+inurl:blank.php?ref=
+intext (password | passcode) intextusername | userid | user) filetype:csv
+inurl:sub*.php?str=
+inurl:/cgi-bin/handler
+inurl:index3.php?mid=
+inurl:nota.php?qry=
+inurl:enter.php?panel=
+inurl:base.php?eval=
+inurl:default.php?mod=
+inurl:view.php?channel=
+inurl:padrao.php?qry=
+inurl:index2.php?module=
+inurl:/database.nsf
+intitle:"Login to Cacti"
+inurl:page.php?file=
+inurl:/ashheadlines.php?pathtoashnews=
+inurl:publications.php?id=
+inurl:/cgi-bin/snorkerz.bat
+inurl:default.php?rub=
+intitle:intranet inurl:intranet +intext:"phone"
+inurl:nuke filetype:sql
+inurl:enter.php?open=
+inurl:/index.php?conteudo=
+inurl:index1.php?body=
+ext:cgi intitle:"control panel" "enter your owner password to continue!"
+inurl:/cgi-bin/ksh
+inurl:sub*.php?secc=
+inurl:"Book.asp?bookID="
+inurl:page.php?subject=
+inurl:"item.asp?model="
+inurl:"ancillary.asp?ID="
+inurl:"shopcart.asp?title="
+inurl:enter.php?y=
+inurl:/includes/include_once.php?include_file=
+inurl:/tree.dat
+inurl:main.php?include=
+inurl:main.php?url=
+filetype[Only Registered Users Can See Links] qbb
+inurl:show.php?left=
+inurl:post.php?id=
+inurl:print.php?pollname=
+inurl:print.php?link=
+inurl:path.php?left=
+inurl:/cgi-bin/rguest.exe
+filetype:PPT PPT
+inurl:show.php?z=
+inurl:gallery.php?chapter=
+inurl:default.php?k=
+intitle:\"index of\" +myd size
+inurl:"index.asp?cartID="
+inurl:pagina.php?filepath=
+inurl:"getbook.asp?bookid="
+inurl:index3.php?thispage=
+inurl:"pagedisplay.php?id="
+intitle:"communigate pro * *" intitle:"entrance"
+inurl:enter.php?e=
+inurl:/extensions/moblog/moblog_lib.php?basedir=
+inurl:mod*.php?home=
+inurl:info.php?j=
+inurl:*inc*.php?base_dir=
+inurl:blank.php?phpbb_root_path=
+inurl:general.php?sivu=
+inurl:template.php?left=
+inurl:/log.nsf
+inurl:template.php?t=
+filetype:inf inurl:capolicy.inf
+inurl:/cgi-bin/webgais
+inurl:/eblog/blog.inc.php?xoopsConfig[xoops_url]=
+inurl:enter.php?a=
+inurl:main.php?pname=
+inurl:build.err
+inurl:/db/main.mdb
+inurl:start.php?loader=
+inurl:print.php?inc=
+inurl:start.php?home=
+intext:"Index of /backup"
+inurl:index3.php?home=
+intext:"Supplied argument is not a valid MySQL result resource"
+allinurl:intranet admin
+inurl:loadpsb.php?id=
+inurl:/cool-logs/mylog.html
+inurl:enter.php?go=
+inurl:home.php?base_dir=
+inurl:/cgi-bin/filemail.pl
+inurl:sitio.php?get=
+inurl:view_product.php?id=
+inurl:layout.php?cmd=
+inurl:press.php?lang=
+inurl:standard.php?var=
+inurl:standard.php?action=
+inurl:general.php?b=
+inurl:home.php?include=
+inurl:include.php?corpo=
+inurl:sitio.php?ev=
+inurl:"noticia.php?noti="
+inurl:"home.php?e="
+inurl:standard.php?cont=
+inurl:show.php?my=
+intitle:"Apache::Status" (inurl:server-status | inurl:status.html | inurl:apache.html)
+inurl:index.php?view=
+inurl:\"phpOracleAdmin/php\" -download -cvs
+inurl:show_an.php?id=
+inurl:"entrevistas.php?id="
+ext:asp inurlathto.asp
+inurl:general.php?f=
+inurl:principal.php?cont=
+filetype:cgi inurl:"Web_Store.cgi"
+inurl:/becommunity/community/index.php?pageurl=
+inurl:mod*.php?var=
+inurl:print.php?path=
+inurl:/msadc/samples/adctest.asp
+inurl:perl
+inurl:"description.asp?bookid="
+intext:"Please authenticate yourself to get access to the management interface"
+inurl:main.php phpMyAdmin
+intext:"Mecury   Version" "Infastructure Group"
+inurl:sub*.php?pre=
+inurl:index1.php?op=
+inurl:press.php?i=
+inurl:gallery.php?index=
+inurl:info.php?filepath=
+intext:"Index of" / "chat/logs"
+inurl:/cgi-bin/perlshop.cgi
+inurl:down*.php?disp=
+intext:"OPENSRS Domain Management" inurl:manage.cgi
+ext:cgi inurl:ubb_test
+intext:"There are no Administrators Accounts" inurl:admin.php -mysql_fetch_row
+inurl:"tema.php?id="
+inurl:index0.php?show=
+inurl:/cgi-bin/formmail.pl
+inurl:general.php?page=
+inurl:view.php?secao=
+filetype:ini Desktop.ini intext:mydocs.dll
+inurl:pagina.php?start=
+inurl:print.cgi
+intitle:index.of   cleanup.log
+inurl:press.php?mid=
+inurl:press.php?param=
+inurl:shtml.exe
+inurl:padrao.php?page=
+inurl:press.php?addr=
+inurl:head.php?ref=
+inurl:info.php?oldal=
+inurl:layout.php?z=
+inurl:show.php?thispage=
+inurl:page.php?panel=
+inurl:show.php?type=
+inurl:index3.php?seccion=
+inurl:/main.php?x=
+inurl:productinfo.php?id=
+inurl:enter.php?name=
+inurl:"news_dettaglio.php?nid="
+inurl:file.php?showpage=
+inurl:mod*.php?path=
+inurl:sub*.php?header=
+inurl:"info.php?hid="
+filetype:conf inurl:proftpd. PROFTP FTP server configuration file reveals
+inurl:page.php?mod=
+inurl:start.php?o=
+intext:"Request Details" "Control Tree" "Server Variables"
+inurl:"prodotti.php?ID="
+inurl:index1.php?strona=
+intext:"not for public release" -.edu -.gov -.mil
+intext:"your password is" filetype:log
+inurl:/cgi-bin/cgimail.exe
+filetype:QBW qbw
+inurl:sub*.php?destino=
+inurl:main.php?my=
+inurl:"itemdetails.asp?catalogid="
+inurl:general.php?section=
+inurl:proxy | inurl:wpad ext:pac | ext:dat findproxyforurl
+inurl:template.php?mod=
+inurl:index.php?pref=
+inurl:/squirrelcart/cart_content.php?cart_isp_root=
+inurl:index1.php?pagina=
+inurl:path.php?qry=
+inurl:servlet/webacc
+intitle:"index of" master.passwd 007电脑资讯
+inurl:sitio.php?pageweb=
+inurl:mod*.php?action=
+inurl:coppercop/theme.php?THEME_DIR=
+intitle:"Admin Login" "admin login" "blogware"
+inurl:info.php?t=
+intitle:"Content Management System" "user name"|"password"|"admin" "Microsoft IE 5.5″ -mambo
+inurl:general.php?content=
+inurl:"contact.asp?cartId="
+inurl:"inicio.php?id="
+inurl:base.php?include=
+inurl:/today.nsf
+inurl:template.php?showpage=
+inurl:"newsletter/admin/"   intitle:"newsletter admin"
+inurl:index3.php?mod=
+inurl:"listcategoriesandproducts.asp?idCategory="
+inurl:main.php?basepath=
+inurl:default.php?tipo=
+inurl:print.php?rub=
+inurl:print.php?*root*=
+inurl:/iisadmpwd/anot3.htr
+inurl:sitio.php?name=
+inurl:admin filetype:xls
+filetype:netrc password
+inurl:standard.php?q=
+inurl:fcgi-bin/echo
+inurl:"shopreviewadd.asp?id="
+inurl:viewshowdetail.php?id=
+inurl:index3.php?phpbb_root_path=
+inurl:head.php?pollname=
+intext:"pcANYWHERE EXPRESS Java Client"
+inurl:html
+inurl:pagina.php?cmd=
+inurl:ages.php?id=
+inurl:page.php?left=
+inurl:index2.php?cmd=
+inurl:al_initialize.php?alpath=
+inurl:sub*.php?category=
+haccess.ctl (one way)
+intext:"The s?ri?t whose uid is " "is not allowed to access"
+inurl:/index1.php?main=
+inurl:nota.php?inc=
+inurl:netscape.ini
+inurl:sitio.php?rub=
+inurl:maillist.pl
+inurl:template.php?mid=
+inurl:base.php?w=
+inurl:rpSys.html
+intitle:Group-Office "Enter your username and password to login"
+inurl:nota.php?chapter=
+inurl:show.php?ir=
+inurl:home.php?in=
+inurl:index.php?pag=
+inurl:components/com_phpshop/toolbar.phpshop.html.php?mosConfig_absolute_path=
+filetype:pwd service
+inurl:standard.php?pr=
+inurl:index.php?show=
+intext:"Output produced by SysWatch *"
+inurl:press.php?id=
+inurl:down*.php?subject=
+inurl:base.php?pageweb=
+intext:"VNC Desktop" inurl:5800
+inurl:/cool-logs/mlog.html
+inurl:main.php?xlink=
+inurl:pap-secrets -cvs
+inurl:/templates/headline_temp.php?nst_inc=
+inurl:standard.php?link=
+inurl:file.php?ev=
+inurl:"eventi.php?idEvento="
+inurl:standard.php?goFile=
+inurl:"resellers.asp?idCategory="
+inurl:\" [Only Registered Users Can See Links]\"
+intext:"Tobias Oetiker" "traffic analysis"
+intitle:"Login Forum
+inurl:sub*.php?cont=
+inurl:snitz_forums_2000.mdbinurl:ssl.conf filetype:conf
+intext:"Warning: Bad arguments to (join|implode) () in" "on line" -help -forum
+filetype:bak createobject sa
+inurl:main.php?start=
+intext:"Can't connect to local" intitle:warning
+index.of.dcim
+intitle:index.of trillian.ini
+inurl:default.php?cont=
+inurl:infosrch.cgi
+inurl:path.php?start=
+inurl:"shopbasket.asp?bookid="
+inurl:press.php?subject=
+inurl:log.nsf   -gov
+inurl:/pls/sample/admin_/help/
+inurl:enter.php?addr=
+inurl:wrap
+inurl:layout.php?strona=
+filetype:PHTML PHTML
+inurl:blank.php?pa=
+intext:"Copyright (c) Tektronix, Inc." "printer status"
+inurl:/msads/samples/selector/showcode.asp
+inurl:gallery.php?nivel=
+inurl:enter.php?lang=
+inurl:/cgi-bin/wwwboard.pl
+inurl:/admin_modules/admin_module_deldir.inc.php?config[path_src_include]=
+inurl:"slapd.conf" intext:"rootpw" -manpage -"Manual Page" -man: -sample
+inurl:"seccoes.php?seccao="
+inurl:"conto.php?id="
+filetype:myd myd -CVS
+inurl:general.php?secao=
+inurl:include.php?w=
+inurl:index2.php?action=
+inurl:index.php?disp=
+intext:"Login - Sun Cobalt RaQ"
+intext:"Most Submitted Forms and Scripts"   "this section"
+inurl:pagina.php?pr=
+inurl:query
+inurl:include.php?in=
+inurl:sitio.php?sec=
+inurl:print.php?middlePart=
+inurl:YaBB.pl
+intitle:\"index.of.personal\"
+inurl:include.php?chapter=
+inurl:down*.php?qry=
+inurl:default.php?strona=
+intext:"Network Vulnerability   Assessment Report"
+inurl:yapboz_detay.asp + View Webcam User Accessing
+intitle:axis intitle:"video server"
+inurl:start.php?index=
+intitle:"microsoft certificate services" inurl:certsrv
+intitle:\"ASP Stats Generator *.*\" \"ASP Stats Generator\" \"- weppos\"
+inurl:nota.php?url=
+inurl:index.php?include=
+inurl:cp.php?cl=cp nowmenuid=
+inurl:page.php?pref=
+inurl:cgi-bin/printenv
+inurl:Search.pl
+filetype:DLL DLL
+inurl:fpcount.exe
+inurl:pls/admin_/gateway.htm
+inurl:/cgi-bin/environ.cgi
+inurl:include.php?header=
+inurl:\"plog/register.php\"
+inurl:index2.php?goto=
+inurl:principal.php?choix=
+inurl:general.php?pollname=
+inurl:padrao.php?n=
+intitle:\"Web Server Statistics for ****\"
+filetypehp inurl:index inurlhpicalendar -site:sourceforge.net
+inurl:shop_category.php?id=
+inurl:press.php?seite=
+inurl:changepassword.asp
+inurl:ad.cgi
+allintitle:"Welcome to the Cyclades"
+inurl:allmanage.pl
+filetype:inc mysql_connect OR mysql_pconnect
+inurl:standard.php?ev=
+inurl:default.php?ki=
+inurl:"shop.asp?bookid="
+inurl:default.php?pa=
+inurl:order
+inurl:start.php?eval=
+inurl:show.php?r=
+inurl:default.php?destino=
+inurl:info.php?chapter=
+filetype:vcs vcs
+inurl:index.php?visualizar=
+filetype:cfg auto_inst.cfg
+inurl:/scripts/iisadmin/tools/getdrvrs.exe
+intitle:upload inurl:upload intext:upload -forum -shop -support -wc
+inurl:base.php?rub=
+inurl:principal.php?disp=
+index.of.password
+inurl:/cgi-bin/textcounter.pl
+inurl:"servizi.php?p="
+intitle:"index of" intext:connect.inc
+inurl:index1.php?*root*=
+inurl:sub*.php?chapter=
+intitle:"OfficeConnect Cable/DSL Gateway" intext:"Checking your browser"
+filetype:lit lit (books|ebooks)
+intext:"Generated   by phpSystem"
+inurl:"novedades-detalle.php?id="
+inurl:view.php?body=
+intitle:"Index of" upload size parent   directory
+inurl:padrao.php?*root*=
+inurl:padrao.php?sekce=
+inurl:down*.php?incl=
+inurl:"item_show.asp?code_no="
+inurl:print.php?str=
+inurl:info.php?l=
+filetype:vcs   vcs
+inurl:"item.asp?shopcd="
+inurl:"viewtopic.php?f="
+inurl:"cart.asp?id="
+inurl:print.php?menue=
+inurl:search.php vbulletin
+inurl:general.php?pr=
+inurl:principal.php?addr=
+inurl:index3.php?channel=
+intitle:"Uploader - Uploader v6" -pixloads.com
+inurl:index.php?go=
+inurl:nota.php?modo=
+intitle:index.of inbox dbx
+inurl:page.php?link=
+inurl:mailform.pl
+intitle:"curriculum vitae" filetype:doc
+inurl:"contenuto.php?id="
+inurl:info.php?phpbb_root_path=
+intitle:"Kurant Corporation StoreSense" filetype:bok
+inurl:info.php?rub=
+inurl:blank.php?qry=
+inurl:mailto.cgi
+inurl:standard.php?w=
+inurl:index.php?rage=
+intext:"Establishing a secure Integrated Lights Out session with" OR intitle:"Data Frame - Browser not HTTP 1.1 compatible" OR intitle:"HP Integrated Lights-
+inurl:server-info \"Apache Server Information\"
+inurl:index.php?document=
+inurl:print.php?numero=
+intext:"ASP.NET_SessionId" "data source="
+intitle:"Welcome to Mailtraq WebMail"
+inurl:section.php?id=
+inurl:vtund.conf intext:pass -cvs
+inurl:"ver.php?id="
+inurl:global.inc
+intitle:\"index of\" mysql.conf OR mysql_config
+inurl:kategorie.php4?id=
+filetype:cfg mrtg \"target
+inurl:/cgi-bin/w3tvars.pm
+inurl:index.php?content=
+inurl:blank.php?subject=
+inurl:cgi-bin/printenv
+intext:"detected an internal error [IBM][CLI Driver][DB2/6000]"
+inurl:/eprise/
+intext:"powered | performed by Beyond Security's Automated Scanning" -kazaa -example
+intext:"Microsoft (R) Windows * (TM) Version   * DrWtsn32 Copyright (C)" ext:log
+intitle:intranet inurl:intranet +intext:\"human resources\"
+inurl:general.php?choix=
+inurl:sitio.php?menu=
+inurl:down*.php?pag=
+inurl:include.php?loc=
+inurl:blank.php?incl=
+inurl:inc/functions.inc.php?config[ppa_root_path]=
+inurl:padrao.php?link=
+intext:"BiTBOARD v2.0" BiTSHiFTERS Bulletin Board"
+inurl:file.php?pagina=
+inurl:home.php?panel=
+inurl:mod*.php?pageweb=
+inurl:print.php?play=
+inurl:"prodbycat.asp?intCatalogID="
+inurl:+union+select+ from
+htpasswd
+inurl:pages.php?id=
+inurl:info.php?ref=
+inurl:index3.php?start=
+inurl:declaration_more.php?decl_id=
+inurl:index3.php?name=
+inurl:\"putty.reg\"
+inurl:pwd.dat
+inurl:show.php?to=
+filetype:sql (\"passwd values\" | \"password values\" | \"pass values\" )
+inurl:/main.php?sayfa=
+inurl:standard.php?s=
+inurl:standard.php?panel=
+inurl:sub*.php?mod=
+inurl:releases.php?id=
+inurl:base.php?disp=
+inurl:bb_usage_stats/include/bb_usage_stats.php?phpbb_root_path=
+inurl:path.php?link=
+inurl:csCreatePro.cgi
+inurl:login.jsp
+inurl:"/slxweb.dll/external?name=(custportal|webticketcust)"
+inurl:service.pwd
+inurl:index1.php?recipe=
+intitle:index.of haccess.ctl
+filetype:HTM HTM
+inurl:padrao.php?read=
+inurl:forum
+inurl:index1.php?dir=
+inurl:template.php?choix=
+intitle:"oMail-admin Administration – Login" -inurl:omnis.ch
+inurl:old_reports.php?file=
+intitle:"WorldClient" intext:"? (2003|2004) Alt-N Technologies."
+inurl:padrao.php?mid=
+inurl:view.php?goto=
+filetype:ora tnsnames
+inurl:ssl.conf filetype:conf
+inurl:sitio.php?addr=
+inurl:/cgi-bin/finger? Enter (account|host|user|username)
+inurl:enter.php?str=
+inurl:index3.php?p=
+inurl:print.php?base_dir=
+inurl:template.php?e=
+intext:"enable password 7"
+inurl:layout.php?goto=
+intitle:\"PHP Explorer\" exthp (inurlhpexplorer.php
+intitle:"b2evo > Login form" "Login form. You must log in! You will have to accept cookies in order to log in" -demo -site:b2evolution.net
+inurl:ccbill filetype:log
+ext:asp inurl:pathto.asp
+filetype:pl intitle:"Ultraboard Setup"
+inurl:/scripts/perl
+inurl:principal.php?viewpage=
+inurl:general.php?where=
+inurl:admin inurl:userlist Generic userlist files
+inurl:show.php?abre=
+inurl:"calendario.php?id="
+intitle:"vhost" intext:"vHost . 2000-2004″
+inurl:info.php?option=
+inurl:padrao.php?abre=
+inurl:"agenda.php?b="
+inurl:gallery.php?disp=
+filetype:mdb inurl:users.mdb
+inurl:index.php?play=
+inurl:tools/send_reminders.php?includedir=
+inurl:show.php?path=
+inurl:index1.php?modo=
+inurl:home.php?middle=
+inurl:"show_event.php?event_id="
+inurl:"fotos.php?id="
+inurl:show.php?m=
+inurl:/index.php/main.php?x=
+inurl:CrazyWWWBoard.cgi
+intext:"phone * * *" "address *" "e-mail" intitle:"curriculum vitae"
+inurl:path.php?loader=
+inurl:"shopreviewlist.asp?id="
+inurl:index.php?pollname=
+inurl:show.php?ki=
+inurl:/index.php?from_market=Y*amp;pageurl=
+inurl:*inc*.php?i=
+inurl:view.php?second=
+inurl:path.php?middlePart=
+inurl:press.php?strona=
+inurl:include.php?name=
+inurl:/inc/shows.inc.php?cutepath=
+inurl:+union+select+ SHOP
+inurl:gallery.php?menue=
+inurl:/iisadmpwd/aexp4b.htr
+inurl:nota.php?play=
+inurl:"cat.asp?iCat="
+inurl:pagina.php?ev=
+inurl:index2.php?second=
+intitle:"twiki" inurl:"TWikiUsers"
+inurl:template.php?str=
+inurl:"produto.php?pid="
+inurl:index.php?basepath=
+inurl:press.php?my=
+inurl:/cgi-bin/webmap.cgi
+inurl:index1.php?d=
+inurl:show.php?qry=
+filetype:pdb pdb backup (Pilot | Pluckerdb)
+inurl:nota.php?pre=
+inurl:show.php?adresa=
+inurl:"browse.asp?catid="
+inurl:log.html
+inurl:participant.php?id=
+inurl:"checkout1.asp?cartid="
+filetype:SHTML SHTML
+filetypera ora
+inurl:enter.php?ev=
+inurl:view.php?recipe=
+inurl:enter.php?home=
+inurl:"affiliates.asp?id="
+inurl:general.php?second=
+inurl:"store.asp?id="
+inurl:"informacion.php?info="
+inurl:index3.php?sekce=
+inurl:sub*.php?mid=
+inurl:/includes/orderSuccess.inc.php?glob=1&cart_order_id=1&glob[rootDir]=
+inurl:index.php?sec=
+inurl:user
+inurl:"shopexd.asp?catalogid="
+inurl:file.php?get=
+inurl:principal.php?inc=
+inurl:index.php?pre=
+inurl:main.php?site=
+inurl:person.php?id=
+inurl:template.php?basepath=
+inurl:tdbin
+inurl:head.php?rub=
+intitle:"Tomcat Server Administration"
+inurl:/webedit.* intext:WebEdit Professional -html
+inurl:*inc*.php?y=
+inurl:clubpage.php?id=
+inurl:view.php?str=
+inurl:report \"EVEREST Home Edition \"
+inurl:layout.php?OpenPage=
+inurl:pagina.php?load=
+inurl:general.php?var=
+inurl:file.php?body=
+inurl:index3.php?showpage=
+filetype:dat wand.dat
+inurl:home.php?read=
+inurl:/cgi-shl/win-c-sample.exe
+inurl:head.php?load=
+inurl:page.php?secao=
+inurl:gallery.php?*[*]*=
+inurl:layout.php?xlink=
+inurl:index3.php?destino=
+inurl:/cgi-bin/info2www
+inurl:sitio.php?t=
+inurl:product-item.php?id=
+intitle:ilohamail intext:"Version 0.8.10″ "
+intitle:rapidshare intext:login
+inurl:print.php?left=
+inurl:"agenda.php?r="
+inurl:index1.php?link=
+inurl:enter.php?ref=
+intext:"About Mac OS Personal Web Sharing"
+intitle:"inc. *** 3000 concentrator"
+inurl:"shopcreatorder.asp"
+inurl:file.php?cont=
+inurl:general.php?seccion=
+inurl:include.php?*[*]*=
+inurl:/cgi-bin/search97.vts
+intext:"Host Vulnerability Summary   Report"
+inurl:index1.php?seite=
+inurl:/es/index.php?action=
+intitle:"Horde :: My Portal" -"[Tickets"
+inurl:general.php?mid=
+inurl:file.php?action=
+inurl:index3.php?panel=
+inurl:"shopbycategory.asp?catid="
+inurl:home.php?category=
+inurl:print.php?strona=
+inurl:\"/cricket/grapher.cgi\"
+inurl:include/editfunc.inc.php?NWCONF_SYSTEM[server_path]=
+inurl:include.php?content=
+inurl:mod*.php?pre=
+inurl:main.php?category=
+inurl:sub*.php?basepath=
+inurl:page.php?load=
+inurl:enter.php?pa=
+filetype:mdb inurl:\"news/news\"
+intext:"Most Submitted Forms and s?ri?ts" "this section"
+inurl:"productDisplay.asp"
+inurl:enter.php?texto=
+inurl:"bookmark.htm"
+intitle:\"DocuShare\" inurl:\"docushare/dsweb/\" -faq -gov -edu
+allinurl:control/multiview
+inurl:/index.php?show=
+inurl:main.php?addr=
+inurl:index3.php?secao=
+inurl:enter.php?pref=
+inurl:start.php?modo=
+inurl:nota.php?left=
+inurl:mod*.php?d=
+inurl:mod*.php?secao=
+inurl:layout.php?abre=
+inurl:/secure/.wwwacl
+filetype:xls inurl:"email.xls"
+inurl:"details.php?nid="
+inurl:padrao.php?addr=
+inurl:/cgi-bin/classifieds.cgi
+inurl:mod*.php?pag=
+inurl:mod*.php?incl=
+inurl:general.php?abre=
+inurl:login.php "SquirrelMail version"
+inurl:enter.php?path=
+inurl:"shop_details.asp?prodid="
+inurl:myevent.php?myevent_path=
+inurl:view/view.shtml
+inurl:mod*.php?recipe=
+inurl:/cgi-bin/visitor.exe
+inurl:/samples/search/queryhit.htm
+filetype:xls   inurl:"email.xls"
+inurl:"wwwroot/
+filetype:conf inurl:firewall -intitle:cvs
+inurl:main.php?page=
+inurl:"home.php?c="
+inurl:"s.php?s="
+intext:"-FrontPage-" ext:pwd inurl:(service | authors | administrators | users)
+inurl:"details.asp?Press_Release_ID="
+inurl:gallery.php?itemnav=
+inurl:"addToCart.asp?idProduct="
+ext:env DB_PASSWORDintext:"ftp://" "www.eastgame.net"
+inurl:main.php?index=
+inurl:"map.asp?" intitle:"WhatsUp Gold"
+inurl:pagina.php?pre=
+inurl:/cgi-bin/flexform.cgi
+inurl:general.php?my=
+inurl:general.php?modo=
+intext:"Request Details" "Control   Tree" "Server Variables"
+inurl:filezilla.xml -cvs
+intitle:"PHPBTTracker Statistics" | intitle:"PHPBT Tracker Statistics"
+inurl:sitio.php?inc=
+inurl:sitio.php?read=
+inurl:/cgi-bin/csh
+inurl:cgiwrap
+inurl:file.php?index=
+inurl:/cgi-bin/input.bat
+inurl:base.php?category=
+intitle:plesk inurl:login.php3
+inurl:/scripts/iisadmin/tools/mkilog.exe
+inurl:general.php?name=
+inurl:ovcgi/jovw
+inurl:principal.php?secc=
+inurl:head.php?abre=
+inurl:index1.php?second=
+filetype:mdb wwforum
+inurl:index1.php?showpage=
+inurl:blank.php?page=
+inurl:/gnu3/index.php?doc=
+inurl:*.php?pg=
+inurl:base.php?oldal=
+inurl:down*.php?pg=
+inurl:head.php?oldal=
+inurl:page.php?sivu=
+inurl:include.php?cont=
+inurl:home.php?ev=
+inurl:template.php?tipo=
+inurl:standard.php?include=
+inurl:"shopdisplaycategories.asp"
+inurl:rubp.php?idr=
+inurl:enter.php?abre=
+inurl:sub*.php?pname=
+inurl:perform.ini filetype:ini
+inurl:item_id=
+intitle:"eMule *" intitle:"- Web Control Panel" intext:"Web Control Panel" "Enter your password here."
+inurl:1810 "Oracle Enterprise Manager"
+inurl:"template.asp?Action=Item&pid="
+inurl:mod*.php?sekce=
+inurl:"products.asp?keyword="
+intitle:"Index of" spwd.db passwd -pam.conf
+intitle:\"HFS /\" +\"[Only Registered Users Can See Links]\"
+intitle:"PhpMyExplorer" inurl:"index.php" -cvs
+inurl:build.cgi
+inurl:faq2.php?id=
+inurl:template.php?section=
+intitle:\"ASP FileMan\" Resend -site:iisworks.com
+filetype:xls username password email
+inurl:index3.php?dir=
+inurl:gallery.php?my=
+ext:asp inurlUgallery intitle:\".\" -site:dugallery.com -site:duware.com
+inurl:down*.php?s=
+inurl:gallery.php?h=
+inurl:gallery.php?ki=
+inurl:test.php?page=
+inurl:main.php?x=
+inurl:index3.php?choix=
+inurl:submit.cgi
+inurl:sub*.php?sp=
+inurl:base.php?basepath=
+intext:"SQL Server Driver][SQL Server]Line 1: Incorrect syntax near"
+inurl:"pview.asp?Item="
+filetype:reg reg intext: Microsoft Internet Account Manager can
+inurl:nota.php?showpage=
+inurl:start.php?rub=
+filetype:log inurl:password.log
+inurl:shopdbtest.asp
+inurl:"prodetails.asp?prodid="
+intext:"Warning: Division by zero in" "on line" -forum
+inurl:layout.php?modo=
+inurl:view.php?pr=
+inurl:*inc*.php?type=
+inurl:padrao.php?nivel=
+inurl:"radio.php?id="
+inurl:"index.php?Datain="
+inurl:"archivo.php?id="
+intitle:index.of   inbox dbx
+inurl:htgrep
+inurl:index1.php?pollname=
+inurl:administrator/components/com_mgm/help.mgm.php?mosConfig_absolute_path=
+inurl:head.php?lang=
+inurl:/embed/day.php?path=
+inurl:"order.asp?BookID="
+inurl:"product.asp?intProdID="
+inurl:base.php?cont=
+inurl:file.php?play=
+inurl:print.php?sivu=
+inurl:blank.php?section=
+inurl:/[Only Registered Users Can See Links]
+inurl:/bb_lib/checkdb.inc.php?libpach=
+inurl:base.php?str=
+inurl:include.php?go=
+ezBOO \"Administrator Panel\" -cvs
+inurl:head.php?middle=
+inurl:press.php?pg=
+inurl:"submenu.php?opcion="
+inurl:\"slapd.conf\" intext:\"credentials\" -manpage -\"Manual Page\" -man: -sample
+filetype:log "See `ipsec –copyright"
+inurl:main.php?dir=
+inurl:index.php?opcion=
+inurl:sendmail.inc
+inurl:index1.php?texto=
+inurl:base.php?abre=
+inurl:zebra.conf intext:password -sample -test -tutorial -download
+intitle:index.of \"Apache\" \"server at\"
+inurl:pagina.php?middlePart=
+inurl:press.php?menu=
+filetype:SWF SWF
+inurl:press.php?thispage=
+inurl:index2.php?ki=
+inurl:index1.php?str=
+inurl:main.php?path=
+inurl:index3.php?read=
+inurl:main.php?loc=
+inurl:home.php?sec=
+inurl:include.php?nivel=
+filetype:eml eml +intext:\"Subject\" +intext:\"From\" +intext:\"To\"
+inurl:view.php?seccion=
+inurl:index2.php?open=
+inurl:"Browse_Item_Details.asp?Store_Id="
+inurl:/includes/orderSuccess.inc.php?glob=1&cart_order_id=1&glob[rootDir]=
+intext:"Powered by mnoGoSearch - free web search engine software"
+inurl:*inc*.php?str=
+intitle:index.of   cgiirc.config
+inurl:avatar.php?page=
+inurl:/derniers_commentaires.php?rep=
+inurl:padrao.php?filepath=
+inurl:principal.php?eval=
+inurl:home.php?e=
+inurl:layout.php?disp=
+intext:"index of /private" site:mil
+inurl:index.php?cmd=
+inurl:"shopquery.asp?catalogid="
+intext:"Session Start * * * *:*:* *" filetype:log
+inurl:standard.php?ref=
+inurl:getmsg.html intitle:hotmail
+inurl:chappies.php?id=
+inurl:include.php?mid=
+inurl:artikelinfo.php?id=
+filetype:PL PL
+inurl:home.php?a=
+inurl:view.php?b=
+filetype:ini ws_ftp pwd
+intitle:"Microsoft Site Server Analysis"
+inurl:standard.php?phpbb_root_path=
+inurl:index3.php?ev=
+inurl:test.cgi
+ext:txt \"Final encryption key\"
+inurl:file.php?type=
+inurl:"basket.asp?id="
+inurl:general.php?menue=
+inurl:nota.php?n=
+inurl:home.php?seite=
+intitle:"Error using Hypernews" "Server Software"
+inurl:"default.php?id="
+inurl:/index.php?sec=
+inurl:path.php?play=
+intext:"Host   Vulnerability Summary Report"
+inurl:"/cricket/grapher.cgi"
+inurl:index3.php?get=
+inurl:nota.php?include=
+inurl:general.php?goto=
+inurl:"NmConsole/Login.asp" | intitle:"Login - Ipswitch WhatsUp Professional 2005" | intext:"Ipswitch WhatsUp Professional 2005 (SP1)" "Ipswitch, Inc"
+inurl:path.php?option=
+inurl:/gnu/index.php?doc=
+inurl:view.php?ir=
+inurl:template.php?y=
+inurl:pagina.php?goto=
+inurl:"shopdisplayproduct.asp?catalogid="
+inurl:head.php?modo=
+inurl:path.php?nivel=
+intitle:"Multimon UPS status page"
+intitle:"Login –
+inurl:base.php?name=
+inurl:include.php?redirect=
+inurl:/include/livre_include.php?no_connect=lol*amp;chem_absolu=
+inurl:hosting_info.php?id=
+inurl:index3.php?tipo=
+intitle:"Browser Launch Page"
+inurl:index3.php?redirect=
+inurl:pass.dat
+inurl:head.php?y=
+inurl:base.php?id=
+inurl:standard.php?my=
+inurl:*.php?mode=
+inurl:blank.php?ki=
+inurl:file.php?texto=
+inurl:"ItemView.php?id="
+inurl:path.php?adresa=
+intext:"Welcome to" inurl:"cp" intitle:"H-SPHERE" inurl:"begin.html" -Fee
+allintitle: sensitive filetype:doc
+intitle:\"index of\" intext:globals.inc
+inurl:"dettaglionews.php?IDNews="
+inurl:standard.php?seccion=
+intitle:\"index of\" \"parent directory\" \"desktop.ini\" site:dyndns.org
+inurl:index3.php?nivel=
+intext:"you can now password" | "this is a special page only seen by you. your profile visitors" inurl:imchaos
+intitle:index.of /maildir/new/
+inurl:enter.php?pname=
+inurl:/search97.vts
+inurl:blank.php?pname=
+inurl:/classified_right.php?language_dir=
+inurl:home.php?module=
+inurl:/_functions.php?prefix=
+inurl:index1.php?goFile=
+inurl:root.asp?acs=anon Outlook Mail Web Access directory can be
+inurl:home.php?path=
+inurl:index1.php?url=
+inurl:AT-admin.cgi
+inurl:newsdesk.cgi? inurl:"t="
+filetype:ctl inurl:haccess. Microsoft FrontPage equivalent of htaccess
+inurl:print.php?r=
+inurl:index.php?y=
+inurl:index3.php?q=
+inurl:principal.php?ev=
+inurl:file.php?to=
+inurl:category.php?id=
+inurl:nota.php?lang=
+inurl:standard.php?op=
+inurl:index2.php?oldal=
+inurl:components/com_cpg/cpg.php?mosConfig_absolute_path=
+inurl:down*.php?url=
+inurl:sitio.php?disp=
+inurl:index.php?langc=
+inurl:sub*.php?id=
+inurl:.htpasswd
+intitle:\"index.of\" .diz .nfo last modified
+intext:"powered by Web Wiz Journal"
+inurl:home.php?secao=
+intext:"Index of /mail"
+intitle:dupics inurladd.asp | default.asp | view.asp | voting.asp) -site:duware.com
+inurl:/modules/coppermine/themes/default/theme.php?THEME_DIR=
+inurl:principal.php?menue=
+inurl:downloads_info.php?id=
+intitle:"EXTRANET * – Identification"
+inurl:path.php?body=
+inurl:/cgi-bin/maillist.pl
+inurl:"bycategory.asp?id="
+inurl:include.php?ref=
+inurl:show.php?modo=
+inurl:detail.php?ID=
+inurl:/cgi-bin/download.cgi
+inurl:/cgi-bin/flexform
+intext:gmail invite   intext:http://gmail.google.com/gmail/a
+filetype:wsdl wsdl
+inurl:start.php?basepath=
+intext:"iCONECT 4.1 :: Login"
+inurl:main.php?v=
+intext:"Chatologica MetaSearch" "stack tracking"
+inurl:file.php?corpo=
+inurl:index.php?pr=
+inurl:"stands.php?id="
+inurl:index3.php?my=
+inurl:aboutbook.php?id=
+inurl:index.php?secao=
+inurl:event.php?id=
+intitle:index.of cgiirc.config
+inurl:gallery.php?ev=
+ext:passwd -intext:the -sample -example
+inurl:general.php?doshow=
+intitle:"Icecast Administration Admin Page"
+inurl:padrao.php?str=
+inurl:/pivot/modules/module_db.php?pivot_path=
+inurl:info.php?content=
+inurl:/index.php?menu=
+inurl:nota.php?v=
+filetype:asp "Custom Error Message" Category Source
+intitle:"start.managing.the.device" remote pbx acc
+inurl:start.php?strona=
+inurl:template.php?cont=
+filetype:bak inurl:\"htaccess|passwd|shadow|htusers\"
+inurl:logfile
+intext:"http://*:*@www" domainname
+intext:"index of /private" -site:net -site:com -site:org
+inurl:general.php?middle=
+inurl:labels.php?id=
+inurl:"itemDesc.asp?CartId="
+ext:plist filetype:plist inurl:bookmarks.plist
+intitle:"Admin login" "Web Site Administration" "Copyright"
+inurl:theme.php?id=
+inurl:principal.php?type=
+inurl:edit.pl
+inurl:start.php?module=
+inurl:*.php?naam=
+intitle:\"Index of /CFIDE/\" administrator
+inurl:sem.php3?id=
+inurl:pagina.php?n=
+intitle:"ZyXEL Prestige Router" "Enter password"
+inurl:template.php?where=
+inurl:principal.php?home=
+inurl:main.php?chapter=
+inurl:show.php?l=
+inurl:path.php?strona=
+inurl:/pollvote/pollvote.php?pollname=
+inurl:template.php?h=
+inurl:"showStore.asp?catID="
+inurl:report "EVEREST Home   Edition "
+inurl:pagina.php?str=
+inurl:press.php?second=
+inurl:show.php?module=
+inurl:enter.php?left=
+inurl:sitio.php?oldal=
+inurl:man.sh
+inurl:/cgi-bin/query
+intext:"Index of /" +password.txt
+inurl:"shopaddtocart.asp"
+inurl:"news.php?kind="
+inurl:print.php?thispage=
+inurl:principal.php?url=
+inurl:index.php?dsp=
+inurl:formmail.cgi
+inurl:principal.php?b=
+inurl:"customerService.asp?TextID1="
+inurl:show
+inurl:start.php?ir=
+inurl:index.php?stranica=
+inurl:principal.php?recipe=
+inurl:start.php?thispage=
+intitle:index.of intext:\"secring.skr\"|\"secring.pgp\"|\"secring.bak\"
+inurl:/demo/includes/init.php?user_inc=
+intitle:"index of" mysql.conf OR mysql_config
+inurl:aol*/_do/rss_popup?blogID=
+filetype:ASP ASP
+intitle:\"PHP Advanced Transfer\" (inurl:index.php | inurl:showrecent.php )
+inurl:"promotion.asp?catid="
+inurl:"articolo.php?IDArticolo="
+inurl:page.php?choix=
+inurl:/cgi-bin/password.txt
+intitle:"VMware Management Interface:" inurl:"vmware/en/"
+inurl:"?SeriesId="
+inurl:index1.php?dat=
+intitle:"Athens Authentication Point"
+inurl:/counter/index.php intitle:"+PHPCounter 7.*"
+inurl:administrator/components/com_peoplebook/param.peoplebook.php?mosConfig_absolute_path=
+inurl:nota.php?channel=
+inurl:administrator/components/com_linkdirectory/toolbar.linkdirectory.html.php?mosConfig_absolute_path=
+inurl:/cgi-bin/edit.pl
+inurl:show.php?mid=
+filetype:netrc password
+inurl:w3-msql
+inurl:info.php?body=
+inurl:midicart.mdb
+allintitle:\"Test page for Apache Installation\"
+inurl:print.php?category=
+inurl:default.php?v=
+inurl:"recension.php?id="
+inurl:stats.html
+inurl:smarty_config.php?root_dir=
+inurl:upload.asp
+intitle:\"web server status\" SSH Telnet
+inurl:/modules/My_eGallery/public/displayCategory.php?basepath=
+inurl:main.php?j=
+inurl:*inc*.php?open=
+filetypehp HAXPLORER \"Server Files Browser\"
+filetypera tnsnames
+inurl:*.php?secc=
+iletype:log   cron.log
+inurl:default.php?showpage=
+inurl:/includes/dbal.php?eqdkp_root_path=
+inurl:showimg.php?id=
+inurl:perform filetype:ini
+inurl:enter.php?id=
+inurl:humor.php?id=
+filetype:inc dbconn
+inurl:"8003/Display?what="
+inurl:view.php?lang=
+intitle:"Cisco CallManager User Options Log On" "Please enter your User ID and Password in the spaces provided below and click the Log On button to co
+inurl:/cgi-bin/passwd.txt
+filetype:ini ServUDaemon
+inurl:standard.php?base_dir=
+inurl:"item_list.asp?maingroup"
+inurl:template.php?menue=
+inurl:wwwstats.html
+inurl:index.html~
+inurl:/cgi-bin/fpexplorer.exe
+inurl:index.php?l=
+inurl:default.php?n=
+inurl:auctionweaver.pl
+intitle:"Web Server Statistics for ****"
+inurl:"news_dett.php?id="
+inurl:info.php?texto=
+intext:"liveice configuration file" ext:cfg -site:sourceforge.net
+inurl:head.php?sekce=
+inurl:ventrilo_srv.ini adminpassword
+intitle:Configuration.File inurl:softcart.exe
+inurl:"ricerca.php?id="
+inurl:gallery.php?addr=
+inurl:"default/login.php" intitle:"kerio"
+inurl:":10000" intext:webmin
+inurl:/modules/vwar/admin/admin.php?vwar_root=index.php?loc=
+inurl:nota.php?in=
+inurl:blank.php?body=
+inurl:index1.php?site=
+inurl:start.php?name=
+inurl:show.php?x=
+inurl:index.php?inhalt=
+inurl:/adm-cfgedit.php
+inurl:sitio.php?goFile=
+inurl:index3.php?pag=
+inurl:galeri_info.php?l=
+inurl:/cgi-bin/guestbook.pl
+inurl:pagina.php?v=
+intitle:"index of" etc/shadow
+inurl:/cgi-bin/get32.exe|dir
+intitle:"ListMail Login" admin -demo
+inurl:gallery.php?left=
+intext:"produced   by getstats"
+inurl:/components/com_cpg/cpg.php?mosConfig_absolute_path=
+inurl:index.php?file=
+inurl:enter.php?page=
+inurl:down*.php?phpbb_root_path=
+filetypedb pdb backup (Pilot | Pluckerdb)
+inurl:"prodotti.php?id_cat="
+inurl:nota.php?get=
+filetype:rdp rdp
+filetype:sql password
+inurl:sub*.php?module=
+inurl:pagina.php?z=
+inurl:sub*.php?my=
+inurl:SessionServlet
+inurl:enter.php?ir=
+inurl:home.php?loc=
+haccess.ctl (one way)
+inurl:index.php?_REQUEST=&_REQUEST%5boption%5d=com_content&_REQUEST%5bItemid%5d=1&GLOBALS=&mosConfig_absolute_path=
+inurl:pagina.php?my=
+inurl:help.cgi
+inurl:pivot/modules/module_db.php?pivot_path=
+inurl:/phpopenchat/contrib/yabbse/poc.php?sourcedir=
+inurl:page.php?chapter=
+inurl:default.php?inc=
+intitle:dupics inurl:(add.asp | default.asp | view.asp | voting.asp) -site:
+inurl:/cgi-bin/MachineInfo
+inurl:base.php?subject=
+inurl:webalizer filetype:png -.gov -.edu -.mil -opendarwin
+intext:"Your password is * Remember this for later use"
+inurl:pagina.php?panel=
+inurl:"checkout.asp?UserID="
+inurl:shop.cgi
+intitle:"Connection Status" intext:"Current login"
+inurl:layout.php?pagina=
+inurl:index.php?x= index.php?mode=index.php?stranica=
+inurl:"1220/parse_xml.cgi?"
+inurl:"downloadTrial.asp?intProdID="
+intitle:"welcome to netware *" -site:novell.com
+inurl:enter.php?read=
+intext:"parent directory " Name of Singer or album -xxx -html -htm -php -shtml -opendivx
+intext:(password | passcode) intext:(username | userid | user) filetype:csv
+inurl:index3.php?cmd=
+inurl:index1.php?param=
+inurl:index1.php?chapter=
+inurl:SQuery/lib/gore.php?libpath=
+inurl:info.php?incl=
+inurl:index1.php?v=
+inurl:admin intitle:login
+intitle:"ISPMan : Unauthorized Access prohibited"
+inurl:base.php?lang=
+inurl:support/mailling/maillist/inc/initdb.php?absolute_path=
+intitle:"Web Server   Statistics for ****"
+inurl:press.php?option=
+intitle:"Docutek ERes - Admin Login" -edu
+intext:"Error Diagnostic Information" intitle:"Error Occurred While"
+inurl:blank.php?strona=
+intitle:Login intext:"RT is ? Copyright"
+inurl:press.php?include=
+inurl:gallery.php?corpo=
+inurl:cgi-bin/testcgi.exe   "Please distribute TestCGI"
+inurl:\"nph-proxy.cgi\" \"Start browsing through
+inurl:coranto.cgi intitle:Login (Authorized Users Only)
+inurl:path.php?type=
+inurl:print.php?tipo=
+inurl:standard.php?channel=
+inurl:principal.php?ref=
+inurl:index.php?principal=
+inurl:/scripts/tools/getdrvs.exe
+inurl:head.php?pag=
+inurl:"faqs.asp?id="
+filetype:asp   DBQ=" * Server.MapPath("*.mdb")
+filetype:myd myd -CVS
+inurl:index2.php?showpage=
+inurl:show.php?param=
+inurl:\"newsletter/admin/\" intitle:\"newsletter admin\"
+inurl:principal.php?q=
+inurl:standard.php?sivu=
+inurl:"page.asp?PartID="
+intitle:"Index of" .sh_history
+inurl:default.php?base_dir=
+inurl:/cgi-bin/lwgate.cgi
+intext:"mysql dump" filetype:sql
+inurl:template.php?pag=
+inurl:*inc*.php?sivu=
+inurl:index3.php?disp=
+inurl:"/admin/configuration. php?" Mystore
+inurl:press.php?loader=
+inurl:principal.php?n=
+inurl:"comments_form.asp?ID="
+inurl:general.php?thispage=
+inurl:/include/new-visitor.inc.php?lvc_include_dir=
+inurl:preferences.ini "[emule]"
+inurl:index.php?menu=deti&page=
+inurl:page.php?doc=
+inurl:testcgi xitami
+inurl:wwwboard.pl
+inurl:principal.php?left=
+intext:"Web-Based Management" "Please input password to login" -inurl:johnny.ihackstuff.com
+inurl:rubrika.php?idr=
+inurl:template.php?thispage=
+inurl:readnews.php?id=
+inurl:"newsletter/admin/" intitle:"newsletter admin"
+inurl:main.php Welcome to phpMyAdmin
+inurl:main.php?pre=
+inurl:"modline.asp?id="
+inurl:index2.php?qry=
+inurl:index.php?p=
+inurl:default.php?choix=
+inurl:newscat.php?id=
+inurl:netscape.ini
+inurl:dvwssr.dll
+inurl:file.php?viewpage=
+inurl:down*.php?seite=
+filetype:conf inurl:firewall -intitle:cvs
+inurl:print.php?where=
+inurl:print.php?opcion=
+inurl:index.php?u=administrator/components/com_linkdirectory/toolbar.linkdirectory.html.php?mosConfig_absolute_path=
+inurl:path.php?sp=
+inurl:news.php?id=
+inurl:"store-details.asp?id="
+intitle:"Virtual Server Administration System"
+inurl:padrao.php?texto=
+inurl:nota.php?destino=
+intitle: "index of" passwd passwd.bak
+allinurl:"/*/_vti_pvt/" | allinurl:"/*/_vti_cnf/"
+inurl:page.php?go=
+inurl:sub*.php?s=
+inurl:path.php?home=
+inurl:standard.php?middle=
+inurl:index.php?middlePart=
+inurl:index.php?x=
+intitle:endymion.sak?.mail.login.page | inurl:sake.servlet
+inurl:"torneo?.php?id="
+inurl:padrao.php?pname=
+filetype:eml eml +intext:"Subject" +intext:"From" +intext:"To"
+inurl:"shopexd.asp"
+inurl:/db.php?path_local=
+inurl:view.php?u=
+intitle:"ASP Stats Generator *.*" "ASP Stats Generator" "2003-2004 weppos"
+inurl:index.php?doc=
+inurl:sub*.php?open=
+inurl:general.php?p=
+inurl:path.php?mid=
+ext:log "Software: Microsoft Internet Information Services *.*"
+inurl:"buy.asp?bookid="
+inurl:pagina.php?incl=
+inurl:gallery.php?menu=
+inurl:main.php?r=
+inurl:include.php?destino=
+inurl:gallery.php?pre=
+inurl:index1.php?redirect=
+inurl:webaccess.htm
+inurl:/cgi-bin/tst.bat
+intext:\"powered by Web Wiz Journal\"
+inurl:WCP_USER
+inurl:"catalog_main.asp?catid="
+inurl:/cgi-bin/campas
+inurl:start.php?tipo=
+inurl:index2.php?d=
+inurl:blank.php?sivu=
+inurl:press.php?itemnav=
+inurl:sitio.php?redirect=
+inurl:"newsd.php?id="
+inurl:press.php?nivel=
+inurl:/cgi-bin/survey
+inurl:home.php?pr=
+filetype:fp fp
+inurl:webgais
+inurl:"cart_validate.asp?id="
+intitle:"index of" user_carts OR user_cart
+inurl:"addtomylist.asp?ProdId="
+inurl:home
+inurl:\"slapd.conf\" intext:\"rootpw\" -manpage -\"Manual Page\" -man: -sample
+inurl:"home.asp?id="
+inurl:/cgi-bin/test-env
+inurl:nota.php?adresa=
+inurl:nota.php?b=
+filetype:ini inurl:flashFXP.ini
+inurl:irc filetype:cgi cgi:irc
+inurl:"opinion.php?id="
+filetype:inc dbconn
+intext:"This report was generated by   WebLog"
+intitle:"Mail Server CMailServer Webmail" "5.2″
+inurl:index3.php?pref=
+inurl:index1.php?incl=
+inurl:pagina.php?lang=
+inurl:status.cgi?host=all
+inurl:/cgi-bin/password
+inurl:principal.php?param=
+inurl:*inc*.php?modo=
+inurl:file.php?eval=
+inurl:hello.bat
+inurl:index1.php?read=
+inurl:path.php?eval=
+filetype:log inurl:"password.log"
+inurl:classes/adodbt/sql.php?classes_dir=
+inurl:cgiirc.config
+intitle:\"welcome.to.squeezebox\"
+inurl:cvsweb.cgi
+filetype:CGI CGI
+inurl:down*.php?x=
+inurl:phf
+inurl:/cgi-bin/sam._
+inurl:"news.asp?id="
+inurl:base.php?chapter=
+inurl:print.php?goto=
+filetype:reg reg HKEY_CURRENT_USER SSHHOSTKEYS
+inurl:/scripts/samples/ctguestb.idc
+filetype:PHP3 PHP3
+inurl:show.php?incl=
+inurl:newsticker_info.php?idn=
+inurl:principal.php?pre=
+inurl:inc/pipe.php?HCL_path=
+intitle:index.of .bash_history UNIX bash shell history reveals commands
+inurl:/cgi-win/uploader.exe
+inurl:skins/advanced/advanced1.php?pluginpath[0]=
+inurl:file.php?y=
+inurl:padrao.php?type=
+inurl:index2.php?content=
+inurl:administrator/components/com_a6mambocredits/admin.a6mambocredits.php?mosConfig_live_site=
+inurl:index1.php?=
+inurl:standard.php?j=
+filetype:log username putty PUTTY SSH client logs can reveal usernames
+inurl:"residence.php?id=
+inurl:/cgi-bin/passwd
+inurl:explorer.cfm inurldirpath|This_Directory)
+inurl:layout.php?thispage=
+inurl:components/com_extended_registration/registration_detailed.inc.php?mosConfig_absolute_path=
+filetype:fp7 fp7
+inurl:path.php?opcion=
+ext:conf inurl:rsyncd.conf -cvs -man
+inurl:page.php?eval=
+inurl:main.php?ir=
+inurl:layout.php?pageweb=
+inurl:"php121login.php"
+inurl:blank.php?base_dir=
+inurl:view.php?sp=
+intext:"ORA-00921: unexpected end of SQL command"
+inurl:games.php?id=
+inurl:/scripts/iisadmin/bdir.htr
+intext:"parent directory " DVDRip -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+inurl:"advSearch_h.asp?idCategory="
+inurl:administrator/components/com_mgm/help.mgm.php?mosConfig_absolute_path=
+inurl:"typo3/index.php?u=" -demo
+inurl:press.php?rub=
+inurl:home.php?doshow=
+filetype:ns1 ns1
+inurl:plusmail
+inurl:preview.php?id=
+intitle:"AlternC Desktop"
+inurl:sitio.php?body=
+inurl:/main_site.php?page=
+inurl:/cgi-bin/cgiwrap
+inurl:/cgi-bin/wguest.exe
+inurl:"servizi.php?id="
+inurl:/b2-tools/gm-2-b2.php?b2inc=
+filetypera ora
+inurl:start.php?addr=
+inurl:look.php?ID=
+inurl:print.php?dir=
+inurl:"picture.php?id="
+intitle:"wbem" compaq login "Compaq Information Technologies Group"
+inurl:stats.txt
+inurl:enter.php?pagina=
+inurl:enter.php?base_dir=
+inurl:mod*.php?pg=
+inurl:contenido.php?sec=
+filetype:reg "Terminal Server Client"
+inurl:index.php?meio=
+inurl:index2.php?pname=
+inurl:index.php?opcao=
+filetype:BML BML
+inurl:cachemgr.cgi
+inurl:layout.php?oldal=
+inurl:include.php?middle=
+inurl:press.php?ir=
+intext:"SteamUserPassphrase=" intext:"SteamAppUser=" -"username" -"user"
+inurl:index1.php?path=
+inurl:include.php?eval=
+inurl:getFile.cfm
+inurl:default.php?header=
+inurl:index3.php?path=
+filetype:dat "password.dat
+inurl:"product.asp?bookID="
+inurl:forum_bds.php?num=
+inurl:access
+inurl:mod*.php?corpo=
+inurl:template.php?base_dir=
+inurl:index2.php?x=
+inurl:default.php?seite=
+inurl:template.php?pagina=
+ext:reg "username=*" putty
+inurl:view.php?goFile=
+inurl:start.php?include=
+allinurl:"index.php" "site=sglinks"
+inurl:info.php?eval=
+inurl:nota.php?pag=
+inurl:"eventi.php?ID="
+inurl:page.cfm
+inurl:show.php?id=
+intitle:asterisk.management.portal web-access
+inurl:layout.php?c=
+inurl:"artistas.php?id="
+intext:"Index Of /network" "last modified"
+inurl:nota.php?doshow=
+inurl:/administrator/components/com_serverstat/install.serverstat.php?mosConfig_absolute_path=
+inurl:/cgi-bin/lwgate
+inurl:webpage.cgi
+inurl:index3.php?type=
+inurl:mod*.php?ir=
+inurl:include.php?b=
+inurl:padrao.php?rub=
+inurl:logger.html
+intext:"Welcome to Intranet"
+inurl:shredder-categories.php?id=
+inurl:bbs_forum.cgi
+intitle:index.of ws_ftp.ini
+inurl:standard.php?subject=
+inurl:/temp_eg/phpgwapi/setup/tables_update.inc.php?appdir=
+inurl:mod*.php?thispage=
+inurl:"catalog.asp?CatalogID="
+inurl:index1.php?mod=
+inurl:index2.php?p=
+inurl:"news.php?nr="
+intext:"Warning: Failed opening" "on line" "include_path"
+filetype:ns ns
+inurl:nota.php?header=
+inurl:/yabbse/Sources/Packages.php?sourcedir=
+inurl:"shippinginfo.asp?CartId="
+inurl:template.php?addr=
+inurl:press.php?pageweb=
+inurl:base.php?k=
+inurl:"prodotti.php?idcategoria="
+filetype:ldb admin
+inurl:head.php?middlePart=
+filetype:blt \"buddylist\"
+htpasswd
+inurl:/components/com_smf/smf.php?mosConfig_absolute_path=
+inurl:start.php?load=
+inurl:sql.php?id=
+ext:txt "Final encryption key"
+inurl:head.php?read=
+inurl:file.php?pollname=
+allinurl:/examples/jsp/snp/snoop.jsp
+filetype:qbb qbb
+inurl:/livehelp/inc/pipe.php?HCL_path=
+inurl:mod*.php?pagina=
+inurl:blank.php?sp=
+inurl:"emailproduct.asp?itemid="
+inurl:general.php?qry=
+intext:"sets mode: +p"
+inurl:iniziativa.php?in=
+filetype:log   access.log -CVS
+inurl:base.php?seccion=
+inurl:info.php?pref=
+inurl:/iissamples/exair/howitworks/codebrws.asp
+inurl:"catalog.asp"
+intitle:"Index of" ".htpasswd" "htgroup" -intitle:"dist" -apache -htpasswd.c
+filetype:inc inc intext:setcookie
+ext:jbf jbf
+inurl:index3.php?second=
+inurl:/skin/zero_vote/error.php?dir=
+intext:"Error Message : Error loading required libraries."
+inurl:/scripts/convert.bas
+inurl:*inc*.php?left=
+inurl:/cgi-bin/survey.cgi
+inurl:pagina.php?read=
+inurl:default.php?param=
+filetypehp inurl:\"viewfile\" -\"index.php\" -\"idfil
+inurl:/modules/coppermine/themes/coppercop/theme.php?THEME_DIR=
+inurl:modules/coppermine/themes/coppercop/theme.php?THEME_DIR=
+inurl:statrep.nsf -gov
+inurl:"item.asp?item_id="
+inurl:standard.php?z=
+inurl:general.php?pre=
+inurl:gallery.php?get=
+inurl:"addItem.asp"
+allintitle:admin.php
+inurl:general.php?tipo=
+inurl:down*.php?read=
+inurl:asp
+inurl:index3.php?open=
+inurl:page.php?option=
+inurl:webutil.pl
+filetype:fp5 fp5 -site:gov -site:mil -"cvs log"
+intitle:"index of" spwd
+inurl:\"smb.conf\" intext:\"workgroup\" filetype:conf conf
+inurl:"home.php?t="
+inurl:index2.php?itemnav=
+intext:"Microsoft CRM : Unsupported Browser Version"
+inurl:mod*.php?play=
+inurl:base.php?adresa=
+inurl:"details.asp?Service_ID="
+inurl:mod*.php?channel=
+inurl:"index.asp?ID="
+inurl:/cgi-bin/wrap
+filetype:conf oekakibbs
+inurl:news.cgi
+inurl:down*.php?goFile=
+inurl:base.php?ev=
+inurl:"order.asp?id="
+inurl:path.php?in=
+inurl:index.php?cPath=
+inurl:show.php?recipe=
+inurl:show.php?middlePart=
+intitle:opengroupware.org "resistance is obsolete" "Report Bugs" "Username"
+inurl:"scheda.php?id="
+inurl:/index.php?_REQUEST=&_REQUEST[option]=com_content&_REQUEST[Itemid]=1&GLOBALS=&mosConfig_absolute_path=
+inurl:"index.php?content="
+inurl:home.php?loader=
+inurl:sub*.php?corpo=
+inurl:file.php?q=
+inurl:info.php?start=
+inurl:/components/com_rsgallery/rsgallery.html.php?mosConfig_absolute_path=
+inurl:htsearch
+inurl:include.php?middlePart=
+inurl:index1.php?action=
+inurl:"showPic.php?pic_id="
+inurl:/Citrix/Nfuse17/
+inurl:pagina.php?thispage=
+inurl:/library/editor/editor.php?root=
+inurl:/template.php?pagina=
+inurl:/WebSTAR
+inurl:"cacti"   +inurl:"graph_view.php" +"Settings Tree View" -cvs -RPM
+intext:ViewCVS inurl:Settings.php
+inurl:"feedback.asp?title="
+filetype:dat \"password.dat\"
+ext:ics ics
+filetype:log inurl:\"password.log\"
+inurl:include.php?cmd=
+inurl:home.php?link=
+inurl:"fun.php?id="
+inurl:/session/adminlogin
+inurl:"shop.asp?cartID="
+filetype:log "See `ipsec --copyright"
+intitle:\"Index of /\" modified php.exe
+inurl:layout.php?addr=
+inurl:standard.php?where=
+intext:"Index of /password"
+inurl:include.php?sivu=
+inurl:buy.php?category=
+intitle:index.of abyss.conf
+inurl:show.php?corpo=
+inurl:gnatsweb.pl
+inurl:gallery.php?to=
+filetype:ora ora
+inurl:"ViewProduct.asp?misc="
+inurl:/iisadmpwd/anot.htr
+inurl:/names.nsf
+filetype:sql +\"IDENTIFIED BY\" -cvs
+intext:"site info for" "Enter Admin Password"
+inurl:"noticias.php?e="
+inurl:press.php?incl=
+inurl:"news.php?nwid=
+inurl:show.php?filepath=
+inurl:*inc*.php?get=
+inurl:index3.php?pre=
+inurl:general.php?base_dir=
+inurl:page.php?ir=
+intitle:"Welcome to F-Secure Policy Manager Server Welcome Page"
+inurl:enter.php?b=
+intext:"Certificate Practice Statement" inurl:(PDF | DOC)
+inurl:print.php?sekce=
+inurl:announce.php?id=
+inurl:home.php?str=
+inurl:wamp_dir/setup/yesno.phtml?no_url=
+inurl:layout.php?link=
+ext:(doc | pdf | xls | txt | ps | rtf | odt | sxw | psw | ppt | pps | xml) (intext:confidential salary | intext:"budget approved") inurl:confidential
+intitle:index.of .sh_history UNIX shell history reveals commands typed at
+inurl:sitio.php?section=
+inurl:webvpn.html "login" "Please enter your"
+inurl:index1.php?pname=
+inurl:pagina.php?home=
+inurl:blank.php?OpenPage=
+intext:"This is a restricted Access Server" "Javas?ri?t Not Enabled!"|"Messenger Express" -edu -ac
+inurl:/include/main.php?config[search_disp]=true&include_dir=
+inurl:sitio.php?sp=
+inurl:"Sites.dat"+"PASS="
+inurl:index.php~
+inurl:index3.php?chapter=
+intext:"Chatologica MetaSearch" "stack tracking:"
+inurl:index.php?pagina=
+inurl:show.php?include=
+inurl:"/axs/ax-admin.pl" -s?ri?t
+inurl:admin.php?page=
+inurl:default.php?sp=
+inurl:gallery.php?page=
+inurl:info.php?redirect=
+intext:"inspanel" intitle:"login" -"cannot" "Login ID" -site:inspediumsoft.com
+inurl:gallery.php?thispage=
+inurl:play_old.php?id=
+inurl:default.php?ref=
+inurl:"ShopSearch.asp?CategoryID="
+intitle:Index.of etc shadow
+intitle:"System Statistics" +"System and Network   Information Center"
+inurl:sub*.php?k=
+intext:"Powered by UebiMiau" -site:sourceforge.net
+intitle:\"Multimon UPS status page\"
+intext:"powered by openbsd" +"powered by apache"
+inurl:include/write.php?dir=
+inurl:path.php?channel=
+inurl:default.php?l=
+inurl:index.php?goto=
+inurl:"storeitem.asp?item="
+inurl:spr.php?id=
+inurl:path.php?middle=
+inurl:template.php?second=
+inurl:index2.php?ascii_seite=
+inurl:components/com_galleria/galleria.html.php?mosConfig_absolute_path=
+htpasswd / htpasswd.bak
+inurl:index.php?ev=
+inurl:head.php?loc=
+inurl:(user,0x3a,pass)
+inurl:gallery.php?loader=
+inurl:index.php?type=
+inurl:"lista_produto.php?id_categoria="
+inurl:/tags.php?BBCodeFile=
+inurl:info.php?ev=
+intitle:("TrackerCam Live Video")|("TrackerCam Application Login")|("Trackercam Remote") -trackercam.com
+inurl:gallery.php?panel=
+inurl:page.php?qry=
+inurl:/iissamples/sdk/asp/docs/codebrws.asp
+intitle:"Login to the forums - @www.aimoo.com" inurl:login.cfm?id=
+inurl:main.php?filepath=
+inurl:template.php?f=
+inurl:head.php?viewpage=
+inurl:default.php?*root*=
+inurl:"emailToFriend.asp?idProduct="
+inurl:"learnmore.asp?cartID="
+inurl:down*.php?addr=
+filetype:vsd vsd network -samples -examples
+inurl:secring ext:skr | ext:pgp | ext:bak
+inurl:view.php?content=
+inurl:base.php?base_dir=
+inurl:*inc*.php?doshow=
+inurl:index.php?mode=
+inurl:"Select_Item.asp?id="
+inurl:administrator/components/com_cropimage/admin.cropcanvas.php?cropimagedir=
+inurl:"events_en.php?ID="
+ez Publish administration
+inurl:"updates.asp?ID="
+intitle:"index of" passwd
+inurl:enter.php?strona=
+inurl:admin filetype:xls
+inurl:inc/cmses/aedating4CMS.php?dir[inc]=
+inurl:"buy.asp?"
+inurl:bin.welcome.sh | inurl:bin.welcome.bat | intitle:eHealth.5.0
+intext:"phpMyAdmin" "running on" inurl:"main.php"
+intitle:"eXist Database Administration" -demo
+inurl:mod*.php?choix=
+intitle:ilohamail "
+intitle:\"Index of *\" inurl:\"my shared folder\" size modified
+intext:"This is a Shareaza Node"
+allintitle:"Network Camera NetworkCamera"
+filetype:log cron.log
+filetype:MV MV
+inurl:sub*.php?pa=
+inurl:fcgi-bin/echo
+inurl:"add.asp?bookid="
+inurl:blank.php?where=
+inurl:"chisiamo.php?a="
+inurl:/live-support/inc/pipe.php?HCL_path=
+intext:"Installed Objects Scanner" inurl:default.asp
+inurl:include.php?ir=
+inurl:webdriver
+intitle:ilohamail intext:"Version 0.8.10" "
+inurl:info.php?var=
+inurl:include.php?adresa=
+inurl:blank.php?action=
+filetype:asp DBQ=\" * Server.MapPath(\"*.mdb\")
+inurl:www-sql
+inurl:index.php?tipo=
+inurl:"points.php?id="
+intext:"Index of /" +passwd
+inurl:show.php?loader=
+inurl:default.php?read=
+intext:"Mail admins login here to administrate your domain."
+inurl:principal.php?my=
+inurl:blank.php?abre=
+intitle:"index of" htpasswd
+intext:"ORA-00933: SQL command not properly ended"
+inurl:info.php?opcion=
+inurl:"calendar.php?calD="
+inurl:pagina.php?link=
+inurl:down*.php?doshow=
+intext:"parent directory " Name of Singer or album -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+inurl:blank.php?pref=
+intext:"WebExplorer Server - Login" "Welcome to WebExplorer Server"
+inurl:template.php?qry=
+inurl:gallery.php?where=
+inurl:index.php?site=
+filetypewd service
+inurl:publisher
+intitle:"inc. vpn 3000 concentrator"
+inurl:log.txt
+inurl:"index.php? module=ew_filemanager"
+inurl:handler
+intitle:"statistics of" "advanced web statistics"
+intext:"Traffic Analysis for" "RMON Port * on unit *"
+intext:\"d.aspx?id\" || inurl:\"d.aspx?id\"
+inurl:show.php?header=
+inurl:gallery.php?filepath=
+inurl:print.php?read=
+inurl:standard.php?str=
+inurl:"cursos.php?id="
+inurl:file.php?sp=
+inurl:path.php?load=
+inurl:down*.php?second=
+inurl:down*.php?action=
+inurl:template.php?viewpage=
+inurl:"newsstory.php?nid="
+intext:"These   statistics were produced by getstats"
+inurl:index.php?adresa=
+inurl:sitio.php?ir=
+inurl:/iisadmpwd/aexp.htr
+inurl:principal.php?seite=
+intitle:"index of" people.lst
+filetype:FCGI FCGI
+filetype:log access.log -CVS
+inurl:start.php?showpage=
+inurl:/class.mysql.php?path_to_bt_dir=
+inurl:enter.php?numero=
+inurl:sitio.php?chapter=
+inurl:responder.cgi
+inurl:"comersus_optReviewReadExec.asp?idProduct="
+inurl:start.php?b=
+inurl:"productos.php?cat="
+filetype:bak inurl:"htaccess|passwd|shadow|htusers"
+inurl:enter.php?chapter=
+ext:ini Version=4.0.0.4 password
+intext:"phone * * *" "address *" "e-mail"   intitle:"curriculum vitae"
+inurl:*.php?layout=
+inurl:index1.php?*[*]*=
+inurl:/includes/header.php?systempath=
+inurl:index.php?pageurl=
+intext:"This is a Shareaza   Node""This report was generated by WebLog"
+inurl:"image.php?ID="
+intitle:"Index of" upload size parent directory
+inurl:web_store.cgi
+inurl:inc/header.php/step_one.php?server_inc=
+filetype:TXT TXT
+inurl:/ws_ftp.ini
+inurl:homepage.php?sel=
+inurl:down*.php?pr=
+inurl:index2.php?sekce=
+inurl:/msadc/Samples/SELECTOR/codebrws.cfm
+inurl:standard.php?*[*]*=
+inurl:head.php?strona=
+allinurl:install/install.php
+allintitle: restricted filetype :mail
+inurl:layout.php?section=
+inurl:blank.php?var=
+allinurl:"exchange/logon.asp"
+inurl:info.php?url=
+inurl:enter.php?phpbb_root_path=
+inurl:"index.php?art="
+filetype:JSP JSP
+inurl:zebra.conf intextassword -sample -test -tutorial -download
+inurl:"cars.php?make="
+inurl:sub*.php?link=
+inurl:search
+inurl:/password.txt
+inurl:index2.php?to=
+inurl:sitio.php?left=
+inurl:"view.asp?cid="
+inurl:gallery.php?mod=
+inurl:path.php?pageweb=
+intitle:\"edna:streaming mp server\" -forums
+inurl:main.php?subject=
+inurl:base.php?phpbb_root_path=
+filetype:config config intext:appSettings \"User ID\"
+inurl:file.php?oldal=
+inurl:"wvdial.conf" intext:"password" 欢迎访问007电脑资讯
+inurl:enter.php?qry=
+inurl:mod*.php?numero=
+inurl:base.php?var=
+inurl:path.php?numero=
+inurl:/cgi-bin/w3-sql
+inurl:view.php?*[*]*=
+inurl:enter.php?viewpage=
+intitle:"EXTRANET login" -.edu -.mil -.gov
+inurl:servizi.php?SEZ="
+allinurl:".r{}_vti_cnf/"
+inurl:/cgi-bin/classifieds
+intitle:admin intitle:login
+inurl:XcCDONTS.asp
+inurl:sub*.php?j=
+intitle:"DocuShare" inurl:"docushare/dsweb/" -faq -gov -edu
+inurl:show.php?xlink=
+inurl:head.php?tipo=
+intitle:"Supero Doctor III" -inurl:supermicro
+inurl:gallery.php?option=
+inurl:pagina.php?header=
+intitle:Login * Webmailer
+inurl:default.php?menu=
+inurl:page.php?q=
+inurl:/cgi-bin/tst.bat|dir
+intext:SQLiteManager inurl:main.php
+inurl:view.php?middle=
+inurl:portscan.php "from Port"|"Port Range"
+inurl:adcycle
+inurl:web
+inurl:gallery.php?mid=
+intitle:index.of people.lst
+inurl:general.php?header=
+filetype:fp5   fp5 -site:gov -site:mil -"cvs log"
+inurl:secring ext:skr | extgp | ext:bak
+filetype:cnf inurl:_vti_pvt access.cnf
+inurl:show.php?second=
+inurl:sQuery/lib/gore.php?libpath=
+intitle:"PHP Advanced Transfer" (inurl:index.php | inurl:showrecent.php )
+inurl:mysql.class
+inurl:index3.php?left=
+inurl:administrator/components/com_comprofiler/plugin.class.php?mosConfig_absolute_path= /tools/send_reminders.php?includedir= allinurl:day.php?date=
+intext:"sets mode: +k"
+inurl:gallery.php?redirect=
+inurl:newsDetail.php?id=
+inurl:index.php?dir=
+inurl:default.php?secc=
+inurl:page.php?where=
+inurl:nota.php?pagina=
+inurl:pagina.php?tipo=
+inurl:start.php?chapter=
+inurl:general.php?ir=
+inurl:head.php?d=
+intitle:"Docutek ERes – Admin Login" -edu
+inurl:sitio.php?content=
+inurl:"calendar.asp?action=login"
+inurl:index3.php?url=
+inurl:index2.php?link=
+inurl:main.php phpMyAdmin
+inurl:home.php?x=
+inurl:/default.php?page=
+ext:ini intext:env.ini
+inurl:"GetItems.asp?itemid="
+inurl:home.php?index=
+inurl:mod*.php?lang=
+inurl:index3.php?include=
+inurl:print.php?header=
+inurl:enter.php?pg=
+inurl:blank.php?t=
+inurl:layout.php?basepath=
+inurl:send_reminders.php?includedir=
+inurl:sitio.php?pr=
+inurl:print.php?u=
+inurl:print.php?s=
+inurl:down*.php?OpenPage=
+intext:"Fatal error: Call to undefined function" -reply -the -next
+ext:asp   inurlathto.asp
+inurl:gallery.php?id=
+inurl:gallery.php?sec=
+intext:"not for distribution" confidential
+ext:txt "Final encryption   key"
+inurl:layout.php?var=
+intitle:\"index.of *\" admin news.asp configview.asp
+inurl:"shopremoveitem.asp?cartid="
+inurl:layout.php?choix=
+filetype:eml eml   +intext:"Subject" +intext:"From" +intext:"To"
+inurl:"content.asp?id="
+filetype:xls -site:gov inurl:contact
+inurl:blank.php?header=
+inurl:base.php?ki=
+inurl:/addpost_newpoll.php?addpoll=preview&thispath=
+inurl:gallery.php?tipo=
+inurl:index.php?action=
+inurl:mewebmail
+inurl:path.php?ev=
+inurl:template.php?seite=
+inurl:info.php?secao=
+inurl:"convenzioni.php?ID="
+intext:"HostingAccelerator" intitle:"login" +"Username" -"news" -demo
+inurl:enter.php?seite=
+inurl:/IISADMPWD/achg.htr
+inurl:admin filetype:asp Generic userlist files
+inurl:index2.php?adresa=
+inurl:php.ini filetype:ini
+inurl:default.php?mid=
+filetype:pdf "Assessment Report" nessus
+inurl:"artists.php?aid="
+inurl:press.php?page=
+inurl:down*.php?home=
+inurl:index.php?page=
+inurl:nota.php?goFile=
+inurl:info.php?read=
+inurl:padrao.php?name=
+inurl:view.php?load=
+inurl:Citrix/MetaFrame/default/default.aspx
+inurl:lilo.conf filetype:conf password -tatercounter -bootpwd -man
+inurl:general.php?nivel=
+inurl:"comersus_listCategoriesAndProducts.asp?idCategory ="
+inurl:"products_detail.asp?CategoryID="
+intitle:"Terminal Services Web Connection"
+inurl:sub*.php?body=
+intitle:"Index of" .mysql_history
+inurl:pagina.php?q=
+inurl:/cgi-bin/handler.cgi
+inurl:press.php?category=
+filetype:ASPX ASPX
+inurl:viewapp.php?id=
+inurl:index1.php?nivel=
+filetype:PHP4 PHP4
+inurl:padrao.php?destino=
+inurl:/index.php?inter_url=
+intitle:\"Directory Listing\" \"tree view\"
+inurl:file.php?numero=
+intitle:"Apache Tomcat" "Error Report"
+inurl:path.php?chapter=
+inurl:head.php?ir=
+inurl:enter.php?cmd=
+inurl:sitio.php?param=
+inurl:base.php?sivu=
+inurl:show.php?pname=
+inurl:/index2.php?page=
+inurl:/index4.php?body=
+inurl:index1.php?go=
+inurl:start.php?cmd=
+filetype:ini wcx_ftp
+inurl:press.php?get=
+inurl:pagina.php?dir=
+inurl:ds.py
+intext:"parent directory " Gamez -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+intitle:liveapplet
+inurl:pagina.php?g=
+inurl:main.php?section=
+intitle:"Welcome to Windows 2000 Internet Services"
+intext:"Warning: mysql_query()" "invalid query"
+filetype:properties inurl:db intext:password
+inurl:*.php?place=
+inurl:path.php?panel=
+inurl:page.php?pa=
+inurl:/index.php?visualizar=
+intitle:\"Big Sister\" +\"OK Attention Trouble\"
+inurl:main.php?pagina=
+inurl:blank.php?menu=
+inurl:"category_list.asp?id="
+allinurl:auth_user_file.txt
+inurl:"archivio.php?id="
+inurl:principal.php?module=
+intitle:index.of (inurl:fileadmin | intitle:fileadmin)
+inurl:*inc*.php?c=
+inurl:/cgi-bin/faxsurvey
+filetype:inc intext:mysql_connect
+inurl:CrazyWWWBoard.cgi intext:"detailed debugging information"
+inurl:/pm/lib.inc.php?pm_path=
+inurl:gallery.php?open=
+inurl:/functions.php?include_path=
+inurl:services.php?page=
+intext:"error found handling the request" cocoon filetype:xml
+inurl:index2.php?left=
+inurl:blank.php?h=
+inurl:blank.php?goto=
+inurl:down*.php?where=
+inurl:/modcp/ intext:Moderator+vBulletin
+inurl:config.php dbuname dbpass
+intitle:"index of" pwd.db
+inurl:nota.php?seite=
+inurl:file.php?basepath=
+inurl:index.php?str=
+inurl:view.php?ki=
+inurl:index1.php?o=
+inurl:home.php?h=
+inurl:/cgi-bin/cachemgr.cgi
+inurl:staff_id=
+inurl:"install/install.php"
+inurl:"service.php?id="
+intitle:index.of cleanup.log
+inurl:main.php?id=
+filetypeot inurl:john.pot
+inurl:layout.php?opcion=
+inurl:view.php?id=
+inurl:down*.php?channel=
+inurl:index3.php?rub=
+filetype:rdp rdp
+inurl:backup intitle:index.of inurl:admin
+inurl:*inc*.php?k=
+inurl:standard.php?pagina=
+inurl:default.php?var=
+inurl:view.php?mid=
+inurl:mod*.php?b=
+inurl:"foto_index.php?id="
+inurl:sub*.php?b=
+inurl:/index.php?cat=
+inurl:"categorie.php?idlingua="
+inurl:forum filetype:mdb
+intitle:index.of administrators.pwd
+inurl:enter.php?play=
+inurl:print.php?g=
+inurl:redirect.cgi
+inurl:"/NSearch/AdminServlet"
+inurl:"********i.php?id="
+intitlehpinfo "PHP Version"
+filetype:reg \"Terminal Server Client\"
+intitle:"FTP root at"
+inurl:down*.php?open=
+inurl:"cliente.php?id="
+inurl:guestbook.pl
+filetype:bkf bkf
+inurl:show.php?go=
+inurl:head.php?str=
+inurl:nota.php?second=
+inurl:top10.php?cat=
+inurl:path.php?destino=
+inurl:general.php?link=
+inurl:principal.php?p=
+inurl:mod*.php?j=
+inurl:index2.php?phpbb_root_path=
+inurl:info.php?seccion=
+allinurl: admin mdb
+inurl:"gs/adminlogin.aspx"
+intitle:"Error Occurred While Processing Request" +WHERE (SELECT|INSERT) filetype:cfm
+inurl:websendmail
+inurl:mod*.php?link=
+inurl:netscape.hst
+filetype:php inurl:vAuthenticate
+intitle:mywebftp \"Please enter your password\"
+intitle:"Error Occurred" "The error occurred in" filetype:cfm
+inurl:"storefront.asp?id="
+inurl:"category.asp"
+inurl:down*.php?corpo=
+inurl:print.php?choix=
+intitle:"500 Internal Server Error" "server at"
+intitle:"MvBlog powered"
+intitle:\"Apache::Status\" (inurl:server-status | inurl:status.html | inurl:apache.html)
+inurl:principal.php?l=
+intitle:"teamspeak server-administration
+inurl:Stray-Questions-View.php?num=
+inurl:"details.asp?BookID="
+inurl:home.php?where=
+intext:"Index   of" / "chat/logs"
+intext:"Index of /" +.htaccess
+inurl:principal.php?link=
+inurl:default.asp\
+inurl:index.php?a=
+intitle:"SFXAdmin - sfx_global" | intitle:"SFXAdmin - sfx_local" | intitle:"SFXAdmin - sfx_test"
+inurl:passwd filetype:txt
+inurl:"numero.php?id="
+inurl:index.php?loc=
+inurl:/side/index.php?side=
+inurl:view.php?pag=
+inurl:/ssi/envout.bat
+inurl:index.php?open=
+inurl:website.php?id=
+inurl:index2.php?type=
+inurl:press.php?pa=
+inurl:hall.php?file=
+filetype:conf sc_serv.conf
+inurl:/components/com_zoom/includes/database.php?mosConfig_absolute_path=
+inurl:/sources/template.php?CONFIG[main_path]=
+inurl:gallery.php?cont=
+inurl:gallery.php?rub=
+inurl:layout.php?url=
+inurl:base.php?texto=
+inurl:"book_view.asp?bookid="
+inurl:index.php?recipe=
+inurl:layout.php?g=
+filetype:mdb inurl:profiles Microsoft Access databases containing (user)
+inurl:band_info.php?id=
+inurl:print.php?name=
+inurl:path.php?cmd=
+inurl:head.php?start=
+inurl:template.php?c=
+intitle:"PHProjekt - login" login password
+inurl:file.php?include=
+filetype:ctt Contact
+filetype:cfg auto_inst.cfg
+inurl:/dana-na/auth/welcome.html
+inurl:ccbill filetype:log
+intitle:"phpPgAdmin – Login" Language
+inurl:default.php?thispage=
+intext:"Warning: Cannot modify header information - headers already sent"
+inurl:*inc*.php?adresa=
+inurl:"store_listing.asp?id="
+inurl:pages.php?page=
+inurl:padrao.php?menu=
+inurl:mod*.php?v=
+intitle:"DocuShare"
+inurl:path.php?subject=
+inurl:cached_feed.cgi
+inurl:start.php?body=
+inurl:press.php?t=
+inurl:base.php?module=
+inurl:"information.php?id="
+intext:"VHCS Pro ver" -demo
+inurl:standard.php?index=
+inurl:path.php?goto=
+ext:ccm ccm -catacomb
+inurl:"article.asp?id="
+inurl:curriculum.php?id=
+inurl:hp/device/this.LCDispatcher
+inurl:"servizi.php?a="
+inurl:principal.php?nivel=
+ext:conf inurl:rsyncd.conf -cvs   -manext:conf NoCatAuth -cvs
+inurl:head.php?sec=
+inurl:/cgi-bin/whois_raw.cgi
+inurl:nota.php?h=
+inurl:"servizi.php?area="
+ext:dat bpk.dat
+inurl:home.php?qry=
+inurl:head.php?*[*]*=
+intitle:\"wbem\" compaq login \"Compaq Information Technologies Group\"
+intitle:"MikroTik RouterOS Managing Webpage"
+inurl:page.php?pname=
+inurl:tdbin
+filetype:ini inurl:flashFXP.ini
+inurl:/scripts/fpcount.exe
+inurl:page.php?middle=
+filetype:config web.config -CVS
+intext:"This report lists" "identified by Internet Scanner"
+inurl:report "EVEREST Home Edition "
+ext:inc "pwd=" "UID="
+filetype:pem intext:private
+inurl:general.php?cmd=
+inurl:base.php?play=
+inurl:index.php?lang=
+inurl:gallery.php?abre=
+inurl:db.cgi
+inurl:"wallpaper.php?id="
+inurl:sub*.php?ir=
+inurl:"freedownload.asp?bookid="
+inurl:nota.php?pollname=
+intitle:\"Index of c:\\Windows\"
+inurl:index.php?kobr=
+inurl:news_view.php?id=
+inurl:index.php?u=
+inurl:view.php?option=
+inurl:base.php?doshow=
+inurl:/cgi-bin/classified.cgi
+inurl:administrator/components/com_webring/admin.webring.docs.php?component_dir=
+inurl:/index2.php?menu=
+filetype:XLS XLS
+inurl:home.php?sekce=
+inurl:file.php?left=
+inurl:/msadc/Samples/SELECTOR/showcode.asp
+inurl:*.php?sel=
+inurl:\"GRC.DAT\" intext:\"password\"
+inurl:start.php?str=
+inurl:/modules/newbb_plus/class/forumpollrenderer.php?bbPath[path]=
+inurl:mod*.php?chapter=
+intitle:"Execution of this s?ri?t not permitted"
+inurl:server-status   "apache"
+inurl:home.php?thispage=
+inurl:*inc*.php?pg=
+inurl:index1.php?c=
+inurl:login.php?dir=
+inurl:"reservation.php?rid="
+intext:"You have requested to access the management functions" -.edu
+inurl:main.php?adresa=
+inurl:server-status "apache"
+inurl:blank.php?destino=
+inurl:config.php?_CCFG[_PKG_PATH_DBSE]=
+inurl:/cgi-bin/glimpse
+inurl:/index.php?L2=
+inurl:general.php?chapter=
+filetype:asp DBQ=" * Server.MapPath("*.mdb")
+inurl:/cgi-bin/GWWEB.EXE
+inurl:view/indexFrame.shtml
+inurl:inc/cmses/aedatingCMS.php?dir[inc]=
+inurl:Count.cgi
+filetype:conf slapd.conf
+inurl:page.php?strona=
+inurl:"add_cart.asp?num="
+filetype:php inurl:ipinfo.php "Distributed Intrusion Detection System"
+filetype:ini wcx_ftp
+intitle:"TWIG Login"
+filetype:myd myd   -CVS
+inurl:pagina.php?mid=
+inurl:pagina.php?base_dir=
+inurl:include.php?panel=
+inurl:/index.php?myContent=
+inurl:standard.php?section=
+inurl:"servizi.php?tipo="
+inurl:layout.php?nivel=
+inurl:/cgi-bin/redirect
+inurl:index1.php?qry=
+inurl:/GradeMap/index.php?page=
+inurl:view.php?page=
+ext:ldif ldif
+inurl:enter.php?sec=
+inurl:"comersus_viewItem.asp?idProduct="
+intext:"intitle:3300 Integrated Communications Platform" inurl:main.htm
+intitle:"urchin (5|3|admin)" ext:cgi
+inurl:/scripts/samples/search/webhits.exe
+filetype:conf oekakibbs
+intitle:"xams 0.0.0..15 – Login"
+intitle:"WebLogic Server" intitle:"Console Login" inurl:console
+filetype:blt "buddylist"
+intitle:"ASP   Stats Generator *.*" "ASP Stats Generator" "2003-2004 weppos"
+inurl:nota.php?mid=
+inurl:"shopthanks.asp"
+inurl:file.php?chapter=
+inurl:start.php?adresa=
+inurl:template.php?ir=
+filetype:PHP PHP
+intext:"allow_call_time_pass_reference" "PATH_INFO"
+inurl:principal.php?d=
+filetype:PDF PDF
+inurl:down*.php?ev=
+inurl:layout.php?seite=
+inurl:padrao.php?sivu=
+inurl:down*.php?section=
+inurl:head.php?pname=
+inurl:file.php?ir=
+inurl:admin intitle:login
+inurl:layout.php?where=
+inurl:\"newsletter/admin/\"
+intext:"parent directory" +proftpdpasswd
+inurl:home.php?section=
+intitle:index.of /AlbumArt_
+intitle:"actiontec" main setup status "Copyright 2001 Actiontec Electronics Inc"
+intext:"Web File Browser" "Use regular expression"
+inurl:stat.htm
+filetypeot inurl:john.pot
+inurl:"scheda.php?a="
+inurl:"blogentry.php?id="
+intitle:"LOGREP - Log file reporting system" -site:itefix.no
+inurl:nota.php?t=
+inurl:modules/AllMyGuests/signin.php?_AMGconfig[cfg_serverpath]=
+inurl:index.php?sekce=
+inurl:"catalog_item.asp?ID="
+inurl:read.php?id=
+inurl:adpassword.txt
+inurl:print.php?loc=
+inurl:file.php?incl=
+inurl:include.php?ki=
+inurl:layout.php?tipo=
+inurl:home.php?content=
+inurl:start.php?p=
+filetype:cnf my.cnf -cvs -example
+intitle:\"webadmin - /*\" filetypehp directory filename permission
+inurl:head.php?disp=
+inurl:buy
+filetype:PS PS
+inurl:"gallery.php?section="
+inurl:\"wvdial.conf\" intext:\"password\"
+inurl:*.php?locate=
+inurl:padrao.php?base_dir=
+inurl:"wvdial.conf" intext:"password"
+htpasswd / htgroup
+filetype:reg reg HKEY_CURRENT_USER SSHHOSTKEYS
+inurl:server-info "Apache Server Information"
+inurl:/cgi-bin/phf.pp
+inurl:/cgi-bin/fortune
+inurl:sendmail.cfm
+inurl:/msadc/msadcs.dll
+inurl:default.php?menue=
+inurl:index3.php?ref=
+inurl:base.php?home=
+inurl:/includes/kb_constants.php?module_root_path=
+inurl:/sources/join.php?FORM[url]=owned&CONFIG[captcha]=1&CONFIG[path]=
+inurl:product_ranges_view.php?ID=
+intitle:\"System Statistics\" +\"System and Network Information Center\"
+inurl:"suse/login.pl"
+filetype:asp + "[ODBC SQL"
+inurl:blank.php?goFile=
+inurl:include.php?read=
+inurl:path.php?*[*]*=
+inurl:"prodotti.php?cid="
+inurl:dbconnect.inc
+inurl:nota.php?oldal=
+inurl:"BookDetails.asp?ID="
+inurl:opinions.php?id=
+intitle:"XcAuctionLite" | "DRIVEN BY XCENT" Lite inurl:admin
+inurl:gallery.php?xlink=
+inurl:"category.asp?catid="
+inurl:index.php?id=
+inurl:index.php?where=
+intitle:index.of inbox
+ext:ini eudora.ini
+intitle:"System Statistics" +"System and Network Information Center"
+inurl:media.php?page=
+filetype:xls inurl:\"email.xls\"
+filetype:sql +"IDENTIFIED BY" -cvs
+inurl:path.php?var=
+inurl:logfile.html
+inurl:padrao.php?ir=
+inurl:base.php?middle=
+inurl:info
+inurl:page.php?tipo=
+inurl:mod*.php?secc=
+inurl:/cgi-bin/carbo.dll
+inurl:index.php?openfile=
+filetype:log access.log -CVS
+inurl:default.php?t=
+inurl:"shopping_basket.asp?cartID="
+inurl:main.php?h=
+inurl:sub*.php?option=
+intitle:\"Index of\" passwords modified
+inurl:/index1.php?nav=
+filetypehp inurl:index inurlhpicalendar   -site:sourceforge.net
+inurl:"index.php?id_pagina="
+intitle:index.of ws_ftp.ini
+intitle:"XMail Web Administration Interface" intext:Login intext:password
+inurl:principal.php?middlePart=
+inurl:config.php dbuname dbpass
+inurl:enter.php?content=
+inurl:main.php?pref=
+inurl:"artikel.php?id="
+inurl:/components/com_extended_registration/registration_detailed.inc.php?mosConfig_absolute_path=
+inurl:index1.php?loc=
+allinurl:.br/index.php?loc=
+inurl:"voteList.asp?item_ID="
+inurl:base.php?second=
+intext:"Unable to jump to row" "on MySQL result index" "on line"
+inurl:"calendar.php?view="
+inurl:include.php?goto=
+filetype:CFM CFM
+inurl:index1.php?pre=
+inurl:":10000″ intext:webmin
+inurl:mod*.php?seccion=
+ext:cgi inurl:editcgi.cgi inurl:file=
+inurl:default.php?pageweb=
+inurl:base.php?itemnav=
+intext:"Fill out the form below completely to change your password and user name. If new username is left blank, your old one will be assumed." -edu
+inurl:index.php?var=
+inurl:print.php?my=
+inurl:default.php?goto=
+inurl:index3.php?menue=
+inurl:blank.php?pre=
+inurl:iisadmin
+inurl:head.php?adresa=
+inurl:"noticias.php?id="
+filetype:mbx mbx intext:Subject
+inurl:/cgi-bin/w3-msql
+intext:"#mysql dump" filetype:sql 21232f297a57a5a743894a0e4a801fc3
+intitle:"Merak Mail Server Web Administration" -ihackstuff.com
+inurl:default.php?sivu=
+inurl:standard.php?lang=
+inurl:layout.php?chapter=
+inurl:"prodView.asp?idProduct="
+inurl:default.php?basepath=
+intext:"This report was generated by WebLog"
+inurl:download
+inurl:main.php?eval=
+inurl:home.php?page=
+inurl:base.php?v=
+inurl:nota.php?base_dir=
+allinurl:/index.php?page= site:*.dk
+intitle:index.of inbox
+inurl:template.php?path=
+inurl:gallery.php?oldal=
+inurl:standard.php?open=
+inurl:administrator/components/com_comprofiler/plugin.class.php?mosConfig_absolute_path=
+inurl:"links.asp?catid="
+filetype:cfm "cfapplication name" password
+inurl:index1.php?pr=
+inurl:index.php?sivu=
+intext:"IMail Server Web Messaging" intitle:login
+inurl:"guia.php?cat="
+inurl:page.php?abre=
+inurl:gallery.php?seccion=
+inurl:index.php?lg=
+inurl:index2.php?texto=
+inurl:include.php?oldal=
+inurl:index2.php?chapter=
+intitle:"Nessus Scan Report" "This file was generated by Nessus"
+inurl:index2.php?loc=
+inurl:/modules/Forums/admin/admin_styles.php?phpbb_root_path=
+filetype:cgi inurl:cachemgr.cgi
+inurl:*inc*.php?start=
+inurl:blank.php?pr=
+intitle:"LOGREP – Log file reporting system" -site:itefix.no
+ext:vmx   vmx
+intext:"apricot - admin" 00h
+inurl:"ansprechpartner.php?id="
+inurl:profile_view.php?id=
+inurl:/cgi-bin/perl
+inurl:info.php?adresa=
+inurl:"updatebasket.asp?bookid="
+inurl:principal.php?destino=
+inurl:acid_main.php
+inurl:general.php?e=
+inurl:"story.php?id="
+inurl:page.php?cmd=
+intext:"Warning: * am able * write ** configuration file" "includes/configure.php" -
+inurl:print.php?in=
+inurl:"main.php?f="
+inurl:components/com_extcalendar/admin_events.php?CONFIG_EXT[LANGUAGES_DIR]=
+inurl:"slapd.conf" intext:"credentials" -manpage -"Manual Page" -man: -sample
+inurl:template.php?goto=
+inurl:index2.php?u=
+inurl:view.php?sec=
+intitle:Ovislink inurl:private/login
+inurl:orasso.wwsso_app_admin.ls_login
+inurl:(0x3a,version
+inurl:home.php?pre=
+ext:pwd inurl:(service | authors | administrators | users) "# -FrontPage-"
+inurl:path.php?pre=
+inurl:"assistenza.php?id="
+filetype:mbx mbx intext:Subject
+inurl:mod*.php?strona=
+intitle:"index.of"   .diz .nfo last modified
+inurl:/cgi-bin/rksh
+inurl:start.php?header=
+inurl:template.php?panel=
+filetype:qbb   qbb
+inurl:blank.php?left=
+intext:"parent directory " MP3 -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+inurl:main.php Welcome to phpMyAdmin
+inurl:index2.php?base_dir=
+inurl:/index.php?action=
+inurl:filemail.pl
+intext:"index of/" "ws_ftp.ini" "parent directory"
+intext:"Storage Management Server for" intitle:"Server Administration"
+inurl:"cars.php?cid="
+inurl:blank.php?xlink=
+inurl:home.php?pollname=
+inurl:blank.php?read=
+inurl:"pantalla.php?id="
+inurl:/cpcommerce/_functions.php?prefix=
+ht://Dig htsearch error
+inurl:press.php?OpenPage=
+inurl:"editorial.php?id="
+intitle:"Novell Web Services" "GroupWise" -inurl:"doc/11924" -.mil -.edu -.gov -filetype:pdf
+inurl:pagina.php?left=
+inurl:default.php?x=
+inurl:default.php?eval=
+filetype:mdb wwforum
+filetype:conf slapd.conf
+inurl:lib/gore.php?libpath=
+inurl:service.pwd
+allintitle: restricted filetype:doc site:gov
+inurl:sitio.php?secc=
+ext:yml database inurl:config
+intext:"Installed   Objects Scanner" inurl:default.asp
+inurl:home.php?channel=
+inurl:template.php?content=
+inurl:/cgi-bin/unlg1.1
+inurl:"docushare/dsweb/" -faq -gov -edu
+inurl:data
+inurl:include.php?second=
+inurl:solpot.html?body=
+inurl:standard.php?showpage=
+inurl:start.php?nivel=
+inurl:mod*.php?start=
+inurl:cgi
+inurl:info.php?itemnav=
+intext:"SquirrelMail version" "By the SquirrelMail development Team"
+inurl:start.php?pname=
+inurl::2082/frontend -demo
+inurl:index.php?conteudo=
+inurl:layout.php?secao=
+inurl:/secure/.htaccess
+inurl:default.php?p=
+inurl:info.inc.php
+inurl:/scripts/uploadx.asp
+intitle:"iDevAffiliate – admin" -demo
+inurl:template.php?nivel=
+inurl:general.php?type=
+intitle:"*- HP WBEM Login" | "You are being prompted to provide login account information for *" | "Please provide the information requested and press
+inurl:pagina.php?channel=
+inurl:enter.php?r=
